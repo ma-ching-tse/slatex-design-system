@@ -1,0 +1,1681 @@
+{
+  "source": {
+    "fileKey": "JsOdWljwN8c1Fnbp3cdOXH",
+    "capturedAt": "2026-10-18",
+    "collections": [
+      {
+        "name": "01 · Primitives · Color",
+        "count": 92
+      },
+      {
+        "name": "02 · Theme · Color",
+        "count": 92
+      },
+      {
+        "name": "04 · Brand",
+        "count": 47
+      }
+    ],
+    "primitives": {
+      "neutral/50": "#fdfdfd",
+      "neutral/100": "#f5f5f5",
+      "neutral/200": "#f0f0f0",
+      "neutral/300": "#e5e5e5",
+      "neutral/400": "#cfcfcf",
+      "neutral/500": "#a0a0a0",
+      "neutral/600": "#737373",
+      "neutral/700": "#4a4a4a",
+      "neutral/800": "#242426",
+      "neutral/900": "#141414",
+      "purple/50": "#f0eaff",
+      "purple/100": "#e1d6fa",
+      "purple/200": "#c9b9ec",
+      "purple/300": "#936aed",
+      "purple/400": "#7c5cfc",
+      "purple/500": "#7036f0",
+      "purple/600": "#6130d6",
+      "purple/700": "#5326b5",
+      "purple/800": "#3f1c8c",
+      "purple/900": "#2a125e",
+      "blue/50": "#e8f5fd",
+      "blue/100": "#cceaf9",
+      "blue/200": "#9cd8f3",
+      "blue/300": "#66c3eb",
+      "blue/400": "#32a6de",
+      "blue/500": "#0186ce",
+      "blue/600": "#0074b3",
+      "blue/700": "#006090",
+      "blue/800": "#00496f",
+      "blue/900": "#00334f",
+      "green/50": "#e9fbea",
+      "green/100": "#cef6d1",
+      "green/200": "#9aefa0",
+      "green/300": "#63e76a",
+      "green/400": "#2fda37",
+      "green/500": "#01ce0f",
+      "green/600": "#00b50c",
+      "green/700": "#00940a",
+      "green/800": "#007208",
+      "green/900": "#004d05",
+      "red/50": "#fef2f2",
+      "red/100": "#fee2e2",
+      "red/200": "#fecaca",
+      "red/300": "#fca5a5",
+      "red/400": "#f87171",
+      "red/500": "#dc2626",
+      "red/600": "#c81e1e",
+      "red/700": "#b91c1c",
+      "red/800": "#991b1b",
+      "red/900": "#7f1d1d",
+      "orange/50": "#fff8ea",
+      "orange/100": "#feeecc",
+      "orange/200": "#fed998",
+      "orange/300": "#fdc165",
+      "orange/400": "#ff8a3d",
+      "orange/500": "#f38236",
+      "orange/600": "#fb741a",
+      "orange/700": "#f96407",
+      "orange/800": "#ce7c01",
+      "orange/900": "#662400",
+      "black/8": "#00000014",
+      "black/16": "#00000029",
+      "black/24": "#0000003d",
+      "black/32": "#00000052",
+      "black/40": "#00000066",
+      "black/60": "#00000099",
+      "black/80": "#000000cc",
+      "white/8": "#ffffff14",
+      "white/16": "#ffffff29",
+      "white/24": "#ffffff3d",
+      "white/32": "#ffffff52",
+      "white/40": "#ffffff66",
+      "white/60": "#ffffff99",
+      "white/80": "#ffffffcc",
+      "neutral/750": "#2a2a2c",
+      "purple/250": "#a89fff",
+      "purple/350": "#8b7eff",
+      "purple/450": "#7856ff",
+      "purple/650": "#5f41cf",
+      "neutral/50-alpha-10": "#fdfdfd1a",
+      "neutral/50-alpha-20": "#fdfdfd33",
+      "neutral/50-alpha-35": "#fdfdfd59",
+      "neutral/50-alpha-50": "#fdfdfd80",
+      "neutral/0": "#ffffff",
+      "neutral/250": "#e7e7e7",
+      "neutral/450": "#b8b8b8",
+      "neutral/625": "#696969",
+      "neutral/675": "#505050",
+      "neutral/725": "#353535",
+      "neutral/850": "#1d1d1f",
+      "neutral/950": "#0a0a0a",
+      "neutral/900-alpha-35": "#14141459",
+      "brand/0": "#ffffff",
+      "brand/50": "#fff5f2",
+      "brand/100": "#ffe6dc",
+      "brand/200": "#ffcdbb",
+      "brand/250": "#ffb99f",
+      "brand/275": "#ffaf92",
+      "brand/300": "#ffa281",
+      "brand/350": "#ff9068",
+      "brand/400": "#ff7c4c",
+      "brand/450": "#ff642c",
+      "brand/500": "#ff571a",
+      "brand/550": "#ea5018",
+      "brand/600": "#d14715",
+      "brand/650": "#b23d12",
+      "brand/675": "#9e3610",
+      "brand/700": "#8d300e",
+      "brand/750": "#72270c",
+      "brand/800": "#591e09",
+      "brand/900": "#381306",
+      "brand/950": "#190903",
+      "brand/1000": "#000000"
+    },
+    "theme": [
+      [
+        "neutral/1",
+        "neutral/200",
+        "neutral/800",
+        false
+      ],
+      [
+        "brand/background",
+        "brand/50",
+        "brand/900",
+        true
+      ],
+      [
+        "neutral/2",
+        "neutral/250",
+        "neutral/750",
+        false
+      ],
+      [
+        "brand/2",
+        "brand/100",
+        "brand/800",
+        false
+      ],
+      [
+        "neutral/3",
+        "neutral/300",
+        "neutral/725",
+        false
+      ],
+      [
+        "brand/3",
+        "brand/200",
+        "brand/700",
+        false
+      ],
+      [
+        "neutral/4",
+        "neutral/400",
+        "neutral/675",
+        false
+      ],
+      [
+        "brand/4",
+        "brand/300",
+        "brand/650",
+        false
+      ],
+      [
+        "neutral/5",
+        "neutral/500",
+        "neutral/500",
+        false
+      ],
+      [
+        "brand/5",
+        "brand/400",
+        "brand/450",
+        false
+      ],
+      [
+        "neutral/6",
+        "neutral/600",
+        "neutral/450",
+        false
+      ],
+      [
+        "brand/6",
+        "brand/500",
+        "brand/500",
+        false
+      ],
+      [
+        "neutral/7",
+        "neutral/900",
+        "neutral/50",
+        false
+      ],
+      [
+        "brand/solid",
+        "brand/500",
+        "brand/500",
+        true
+      ],
+      [
+        "neutral/8",
+        "neutral/700",
+        "neutral/400",
+        false
+      ],
+      [
+        "brand/8",
+        "brand/600",
+        "brand/600",
+        false
+      ],
+      [
+        "neutral/9",
+        "neutral/700",
+        "neutral/400",
+        false
+      ],
+      [
+        "brand/foreground",
+        "brand/700",
+        "brand/500",
+        true
+      ],
+      [
+        "neutral/10",
+        "neutral/900",
+        "neutral/50",
+        false
+      ],
+      [
+        "brand/10",
+        "brand/800",
+        "brand/450",
+        false
+      ],
+      [
+        "surface/page",
+        "neutral/100",
+        "neutral/950",
+        true
+      ],
+      [
+        "surface/default",
+        "neutral/0",
+        "neutral/900",
+        true
+      ],
+      [
+        "neutral/on-solid",
+        "neutral/0",
+        "neutral/900",
+        false
+      ],
+      [
+        "brand/on-solid",
+        "brand/0",
+        "brand/0",
+        true
+      ],
+      [
+        "green/1",
+        "green/50",
+        "green/900",
+        false
+      ],
+      [
+        "green/2",
+        "green/100",
+        "green/800",
+        false
+      ],
+      [
+        "green/3",
+        "green/200",
+        "green/800",
+        false
+      ],
+      [
+        "green/4",
+        "green/300",
+        "green/600",
+        false
+      ],
+      [
+        "green/5",
+        "green/500",
+        "green/500",
+        false
+      ],
+      [
+        "green/6",
+        "green/700",
+        "green/400",
+        false
+      ],
+      [
+        "green/7",
+        "green/800",
+        "green/300",
+        false
+      ],
+      [
+        "green/8",
+        "green/800",
+        "green/200",
+        false
+      ],
+      [
+        "green/9",
+        "green/800",
+        "green/200",
+        false
+      ],
+      [
+        "green/10",
+        "green/900",
+        "green/50",
+        false
+      ],
+      [
+        "green/on-solid",
+        "neutral/0",
+        "neutral/900",
+        false
+      ],
+      [
+        "blue/1",
+        "blue/50",
+        "blue/900",
+        false
+      ],
+      [
+        "blue/2",
+        "blue/100",
+        "blue/800",
+        false
+      ],
+      [
+        "blue/3",
+        "blue/200",
+        "blue/700",
+        false
+      ],
+      [
+        "blue/4",
+        "blue/300",
+        "blue/600",
+        false
+      ],
+      [
+        "blue/5",
+        "blue/500",
+        "blue/500",
+        false
+      ],
+      [
+        "blue/6",
+        "blue/600",
+        "blue/400",
+        false
+      ],
+      [
+        "blue/7",
+        "blue/600",
+        "blue/300",
+        false
+      ],
+      [
+        "blue/8",
+        "blue/700",
+        "blue/200",
+        false
+      ],
+      [
+        "blue/9",
+        "blue/700",
+        "blue/200",
+        false
+      ],
+      [
+        "blue/10",
+        "blue/900",
+        "blue/50",
+        false
+      ],
+      [
+        "blue/on-solid",
+        "neutral/0",
+        "neutral/900",
+        false
+      ],
+      [
+        "orange/1",
+        "orange/50",
+        "orange/900",
+        false
+      ],
+      [
+        "orange/2",
+        "orange/100",
+        "orange/800",
+        false
+      ],
+      [
+        "orange/3",
+        "orange/200",
+        "orange/900",
+        false
+      ],
+      [
+        "orange/4",
+        "orange/300",
+        "orange/600",
+        false
+      ],
+      [
+        "orange/5",
+        "orange/500",
+        "orange/500",
+        false
+      ],
+      [
+        "orange/6",
+        "orange/800",
+        "orange/400",
+        false
+      ],
+      [
+        "orange/7",
+        "orange/900",
+        "orange/300",
+        false
+      ],
+      [
+        "orange/8",
+        "orange/900",
+        "orange/200",
+        false
+      ],
+      [
+        "orange/9",
+        "orange/900",
+        "orange/200",
+        false
+      ],
+      [
+        "orange/10",
+        "orange/900",
+        "orange/50",
+        false
+      ],
+      [
+        "orange/on-solid",
+        "neutral/0",
+        "neutral/900",
+        false
+      ],
+      [
+        "red/1",
+        "red/50",
+        "red/900",
+        false
+      ],
+      [
+        "red/2",
+        "red/100",
+        "red/800",
+        false
+      ],
+      [
+        "red/3",
+        "red/200",
+        "red/700",
+        false
+      ],
+      [
+        "red/4",
+        "red/300",
+        "red/600",
+        false
+      ],
+      [
+        "red/5",
+        "red/400",
+        "red/500",
+        false
+      ],
+      [
+        "red/6",
+        "red/500",
+        "red/400",
+        false
+      ],
+      [
+        "red/7",
+        "red/500",
+        "red/500",
+        false
+      ],
+      [
+        "red/8",
+        "red/700",
+        "red/700",
+        false
+      ],
+      [
+        "red/9",
+        "red/700",
+        "red/200",
+        false
+      ],
+      [
+        "red/10",
+        "red/900",
+        "red/50",
+        false
+      ],
+      [
+        "red/on-solid",
+        "neutral/0",
+        "neutral/0",
+        false
+      ],
+      [
+        "text/primary",
+        "neutral/900",
+        "neutral/50",
+        true
+      ],
+      [
+        "text/secondary",
+        "neutral/600",
+        "neutral/500",
+        true
+      ],
+      [
+        "text/disabled",
+        "neutral/900-alpha-35",
+        "neutral/50-alpha-35",
+        true
+      ],
+      [
+        "text/inverse",
+        "neutral/0",
+        "neutral/900",
+        true
+      ],
+      [
+        "border/default",
+        "neutral/300",
+        "neutral/725",
+        true
+      ],
+      [
+        "status/success/foreground",
+        "green/800",
+        "green/200",
+        true
+      ],
+      [
+        "status/info/foreground",
+        "blue/700",
+        "blue/200",
+        true
+      ],
+      [
+        "status/warning/foreground",
+        "orange/900",
+        "orange/200",
+        true
+      ],
+      [
+        "status/error/foreground",
+        "red/700",
+        "red/200",
+        true
+      ],
+      [
+        "border/hover",
+        "neutral/400",
+        "neutral/675",
+        true
+      ],
+      [
+        "border/strong",
+        "neutral/600",
+        "neutral/500",
+        true
+      ],
+      [
+        "status/success/background",
+        "green/50",
+        "green/900",
+        true
+      ],
+      [
+        "status/success/border",
+        "green/700",
+        "green/600",
+        true
+      ],
+      [
+        "status/info/background",
+        "blue/50",
+        "blue/900",
+        true
+      ],
+      [
+        "status/info/border",
+        "blue/600",
+        "blue/500",
+        true
+      ],
+      [
+        "status/warning/background",
+        "orange/50",
+        "orange/900",
+        true
+      ],
+      [
+        "status/warning/border",
+        "orange/800",
+        "orange/500",
+        true
+      ],
+      [
+        "status/error/background",
+        "red/50",
+        "red/900",
+        true
+      ],
+      [
+        "status/error/border",
+        "red/500",
+        "red/400",
+        true
+      ],
+      [
+        "overlay/scrim",
+        "black/40",
+        "black/60",
+        true
+      ],
+      [
+        "internal/input-ring/editing",
+        "#f15c2533",
+        "#f15c2533",
+        false
+      ],
+      [
+        "internal/input-ring/error",
+        "#dc262633",
+        "#f8717133",
+        false
+      ],
+      [
+        "brand/pressed",
+        "brand/650",
+        "brand/650",
+        false
+      ],
+      [
+        "surface/selected",
+        "neutral/200",
+        "neutral/800",
+        true
+      ]
+    ],
+    "dimension": {
+      "space/4": 4,
+      "space/8": 8,
+      "space/12": 12,
+      "space/16": 16,
+      "space/20": 20,
+      "space/24": 24,
+      "space/32": 32,
+      "space/40": 40,
+      "space/48": 48,
+      "space/64": 64,
+      "space/80": 80,
+      "radius/4": 4,
+      "radius/8": 8,
+      "radius/12": 12,
+      "radius/9999": 9999,
+      "control/height/sm": 20,
+      "control/height/md": 32,
+      "control/height/lg": 40,
+      "motion/fast": 150,
+      "motion/standard": 200,
+      "radius/0": 0,
+      "radius/6": 6,
+      "radius/28": 28,
+      "space/0": 0,
+      "space/2": 2,
+      "space/6": 6,
+      "space/96": 96,
+      "space/128": 128,
+      "radius/16": 16,
+      "radius/20": 20,
+      "radius/24": 24
+    },
+    "textStyles": [
+      [
+        "Text/10/Regular",
+        "General Sans",
+        "Regular",
+        10,
+        {
+          "unit": "PIXELS",
+          "value": 14
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/10/Medium",
+        "General Sans",
+        "Medium",
+        10,
+        {
+          "unit": "PIXELS",
+          "value": 14
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/10/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        10,
+        {
+          "unit": "PIXELS",
+          "value": 14
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/12/Regular",
+        "General Sans",
+        "Regular",
+        12,
+        {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/14/Regular",
+        "General Sans",
+        "Regular",
+        14,
+        {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/16/Regular",
+        "General Sans",
+        "Regular",
+        16,
+        {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/14/Medium",
+        "General Sans",
+        "Medium",
+        14,
+        {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/16/Medium",
+        "General Sans",
+        "Medium",
+        16,
+        {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/16/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        16,
+        {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/20/Regular",
+        "General Sans",
+        "Regular",
+        20,
+        {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/20/Medium",
+        "General Sans",
+        "Medium",
+        20,
+        {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/20/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        20,
+        {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/24/Regular",
+        "General Sans",
+        "Regular",
+        24,
+        {
+          "unit": "PIXELS",
+          "value": 32
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/24/Medium",
+        "General Sans",
+        "Medium",
+        24,
+        {
+          "unit": "PIXELS",
+          "value": 32
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/24/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        24,
+        {
+          "unit": "PIXELS",
+          "value": 32
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/28/Regular",
+        "General Sans",
+        "Regular",
+        28,
+        {
+          "unit": "PIXELS",
+          "value": 36
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/32/Regular",
+        "General Sans",
+        "Regular",
+        32,
+        {
+          "unit": "PIXELS",
+          "value": 40
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/32/Medium",
+        "General Sans",
+        "Medium",
+        32,
+        {
+          "unit": "PIXELS",
+          "value": 40
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/32/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        32,
+        {
+          "unit": "PIXELS",
+          "value": 40
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/36/Regular",
+        "General Sans",
+        "Regular",
+        36,
+        {
+          "unit": "PIXELS",
+          "value": 44
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/36/Medium",
+        "General Sans",
+        "Medium",
+        36,
+        {
+          "unit": "PIXELS",
+          "value": 44
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/36/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        36,
+        {
+          "unit": "PIXELS",
+          "value": 44
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/40/Regular",
+        "General Sans",
+        "Regular",
+        40,
+        {
+          "unit": "PIXELS",
+          "value": 48
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/40/Medium",
+        "General Sans",
+        "Medium",
+        40,
+        {
+          "unit": "PIXELS",
+          "value": 48
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/40/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        40,
+        {
+          "unit": "PIXELS",
+          "value": 48
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/12/Medium",
+        "General Sans",
+        "Medium",
+        12,
+        {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/12/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        12,
+        {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/14/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        14,
+        {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/28/Medium",
+        "General Sans",
+        "Medium",
+        28,
+        {
+          "unit": "PIXELS",
+          "value": 36
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/28/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        28,
+        {
+          "unit": "PIXELS",
+          "value": 36
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/48/Regular",
+        "General Sans",
+        "Regular",
+        48,
+        {
+          "unit": "PIXELS",
+          "value": 56
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/48/Medium",
+        "General Sans",
+        "Medium",
+        48,
+        {
+          "unit": "PIXELS",
+          "value": 56
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/48/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        48,
+        {
+          "unit": "PIXELS",
+          "value": 56
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/56/Regular",
+        "General Sans",
+        "Regular",
+        56,
+        {
+          "unit": "PIXELS",
+          "value": 64
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/56/Medium",
+        "General Sans",
+        "Medium",
+        56,
+        {
+          "unit": "PIXELS",
+          "value": 64
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/56/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        56,
+        {
+          "unit": "PIXELS",
+          "value": 64
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/64/Regular",
+        "General Sans",
+        "Regular",
+        64,
+        {
+          "unit": "PIXELS",
+          "value": 72
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/64/Medium",
+        "General Sans",
+        "Medium",
+        64,
+        {
+          "unit": "PIXELS",
+          "value": 72
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ],
+      [
+        "Text/64/SemiBold",
+        "General Sans Variable",
+        "Semibold",
+        64,
+        {
+          "unit": "PIXELS",
+          "value": 72
+        },
+        {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      ]
+    ],
+    "effects": [
+      {
+        "name": "Elevation/Small",
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 2,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.05000000074505806
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": true
+          }
+        ]
+      },
+      {
+        "name": "Elevation/Medium",
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 6,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": true
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": true
+          }
+        ]
+      },
+      {
+        "name": "Elevation/Large",
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 15,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 10
+            },
+            "spread": -3,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": true
+          }
+        ]
+      },
+      {
+        "name": "Elevation/Popover",
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 2,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.05999999865889549
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": true
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 12,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.05999999865889549
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": true
+          }
+        ]
+      }
+    ]
+  },
+  "presets": [
+    {
+      "name": "Orange",
+      "color": "#FF571A",
+      "palette": {
+        "0": "#ffffff",
+        "50": "#fff5f2",
+        "100": "#ffe6dc",
+        "200": "#ffcdbb",
+        "250": "#ffb99f",
+        "275": "#ffaf92",
+        "300": "#ffa281",
+        "350": "#ff9068",
+        "400": "#ff7c4c",
+        "450": "#ff642c",
+        "500": "#ff571a",
+        "550": "#ea5018",
+        "600": "#d14715",
+        "650": "#b23d12",
+        "675": "#9e3610",
+        "700": "#8d300e",
+        "750": "#72270c",
+        "800": "#591e09",
+        "900": "#381306",
+        "950": "#190903",
+        "1000": "#000000"
+      },
+      "light": {
+        "aliases": {
+          "2": "brand/100",
+          "3": "brand/200",
+          "4": "brand/300",
+          "5": "brand/400",
+          "6": "brand/500",
+          "8": "brand/600",
+          "10": "brand/800",
+          "background": "brand/50",
+          "solid": "brand/500",
+          "foreground": "brand/700",
+          "on-solid": "brand/0",
+          "ring": "#f15c2533",
+          "pressed": "brand/650"
+        },
+        "values": {
+          "2": "#ffe6dc",
+          "3": "#ffcdbb",
+          "4": "#ffa281",
+          "5": "#ff7c4c",
+          "6": "#ff571a",
+          "8": "#d14715",
+          "10": "#591e09",
+          "background": "#fff5f2",
+          "solid": "#ff571a",
+          "foreground": "#8d300e",
+          "on-solid": "#ffffff",
+          "ring": "#f15c2533",
+          "pressed": "#b23d12"
+        }
+      },
+      "dark": {
+        "aliases": {
+          "2": "brand/800",
+          "3": "brand/700",
+          "4": "brand/650",
+          "5": "brand/450",
+          "6": "brand/500",
+          "8": "brand/600",
+          "10": "brand/450",
+          "background": "brand/900",
+          "solid": "brand/500",
+          "foreground": "brand/500",
+          "on-solid": "brand/0",
+          "ring": "#f15c2533",
+          "pressed": "brand/650"
+        },
+        "values": {
+          "2": "#591e09",
+          "3": "#8d300e",
+          "4": "#b23d12",
+          "5": "#ff642c",
+          "6": "#ff571a",
+          "8": "#d14715",
+          "10": "#ff642c",
+          "background": "#381306",
+          "solid": "#ff571a",
+          "foreground": "#ff571a",
+          "on-solid": "#ffffff",
+          "ring": "#f15c2533",
+          "pressed": "#b23d12"
+        }
+      }
+    },
+    {
+      "name": "Yellow",
+      "color": "#FFF820",
+      "palette": {
+        "0": "#ffffff",
+        "50": "#fffff2",
+        "100": "#fffedd",
+        "200": "#fffdbd",
+        "250": "#fffca1",
+        "275": "#fffc94",
+        "300": "#fffb84",
+        "350": "#fffa6c",
+        "400": "#fffa51",
+        "450": "#fff82a",
+        "500": "#fff820",
+        "550": "#ebe51d",
+        "600": "#d1cb1a",
+        "650": "#b3ae16",
+        "675": "#9e9a14",
+        "700": "#8c8812",
+        "750": "#73700e",
+        "800": "#59570b",
+        "900": "#383607",
+        "950": "#191803",
+        "1000": "#000000"
+      },
+      "light": {
+        "aliases": {
+          "2": "brand/100",
+          "3": "brand/200",
+          "4": "brand/300",
+          "5": "brand/400",
+          "6": "brand/500",
+          "8": "brand/550",
+          "10": "brand/800",
+          "background": "brand/50",
+          "solid": "brand/500",
+          "foreground": "brand/800",
+          "on-solid": "brand/1000",
+          "ring": "#fff82033",
+          "pressed": "brand/600"
+        },
+        "values": {
+          "2": "#fffedd",
+          "3": "#fffdbd",
+          "4": "#fffb84",
+          "5": "#fffa51",
+          "6": "#fff820",
+          "8": "#ebe51d",
+          "10": "#59570b",
+          "background": "#fffff2",
+          "solid": "#fff820",
+          "foreground": "#59570b",
+          "on-solid": "#000000",
+          "ring": "#fff82033",
+          "pressed": "#d1cb1a"
+        }
+      },
+      "dark": {
+        "aliases": {
+          "2": "brand/800",
+          "3": "brand/700",
+          "4": "brand/650",
+          "5": "brand/450",
+          "6": "brand/500",
+          "8": "brand/450",
+          "10": "brand/350",
+          "background": "brand/900",
+          "solid": "brand/500",
+          "foreground": "brand/400",
+          "on-solid": "brand/1000",
+          "ring": "#fff82033",
+          "pressed": "brand/450"
+        },
+        "values": {
+          "2": "#59570b",
+          "3": "#8c8812",
+          "4": "#b3ae16",
+          "5": "#fff82a",
+          "6": "#fff820",
+          "8": "#fff82a",
+          "10": "#fffa6c",
+          "background": "#383607",
+          "solid": "#fff820",
+          "foreground": "#fffa51",
+          "on-solid": "#000000",
+          "ring": "#fff82033",
+          "pressed": "#fff82a"
+        }
+      }
+    },
+    {
+      "name": "Purple",
+      "color": "#7036F0",
+      "palette": {
+        "0": "#ffffff",
+        "50": "#f0eaff",
+        "100": "#e1d6fa",
+        "200": "#c9b9ec",
+        "250": "#a89fff",
+        "275": "#948ce0",
+        "300": "#936aed",
+        "350": "#8b7eff",
+        "400": "#7c5cfc",
+        "450": "#7856ff",
+        "500": "#7036f0",
+        "550": "#6732dd",
+        "600": "#6130d6",
+        "650": "#5f41cf",
+        "675": "#552abc",
+        "700": "#5326b5",
+        "750": "#32186c",
+        "800": "#3f1c8c",
+        "900": "#2a125e",
+        "950": "#0b0518",
+        "1000": "#000000"
+      },
+      "light": {
+        "aliases": {
+          "2": "brand/100",
+          "3": "brand/200",
+          "4": "brand/300",
+          "5": "brand/400",
+          "6": "brand/500",
+          "8": "brand/600",
+          "10": "brand/800",
+          "background": "brand/50",
+          "solid": "brand/500",
+          "foreground": "brand/700",
+          "on-solid": "neutral/0",
+          "ring": "#7036f033",
+          "pressed": "brand/675"
+        },
+        "values": {
+          "2": "#e1d6fa",
+          "3": "#c9b9ec",
+          "4": "#936aed",
+          "5": "#7c5cfc",
+          "6": "#7036f0",
+          "8": "#6130d6",
+          "10": "#3f1c8c",
+          "background": "#f0eaff",
+          "solid": "#7036f0",
+          "foreground": "#5326b5",
+          "on-solid": "#ffffff",
+          "ring": "#7036f033",
+          "pressed": "#552abc"
+        }
+      },
+      "dark": {
+        "aliases": {
+          "2": "brand/800",
+          "3": "brand/700",
+          "4": "brand/650",
+          "5": "brand/450",
+          "6": "brand/350",
+          "8": "brand/250",
+          "10": "brand/50",
+          "background": "brand/900",
+          "solid": "brand/350",
+          "foreground": "brand/100",
+          "on-solid": "neutral/900",
+          "ring": "#8b7eff33",
+          "pressed": "brand/275"
+        },
+        "values": {
+          "2": "#3f1c8c",
+          "3": "#5326b5",
+          "4": "#5f41cf",
+          "5": "#7856ff",
+          "6": "#8b7eff",
+          "8": "#a89fff",
+          "10": "#f0eaff",
+          "background": "#2a125e",
+          "solid": "#8b7eff",
+          "foreground": "#e1d6fa",
+          "on-solid": "#141414",
+          "ring": "#8b7eff33",
+          "pressed": "#948ce0"
+        }
+      }
+    }
+  ]
+}

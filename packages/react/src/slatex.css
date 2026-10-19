@@ -1,0 +1,20 @@
+@font-face {font-family:'General Sans';src:url('./GeneralSans-Variable.ttf') format('truetype');font-weight:200 700;font-style:normal;font-display:swap;}
+.m-tabs { min-width:0; font-family:inherit; color:var(--m-text-primary); }
+.m-tab-list { --tab-height:32px; --tab-width:84px; --tab-font:12px; --tab-line:16px; display:inline-flex; box-sizing:border-box; width:calc(var(--tab-width) * var(--tab-count) + 4px); max-width:100%; gap:4px; padding:2px; border-radius:12px; background:var(--m-neutral-1); }
+.m-tab-list.tabs-Tiny { --tab-height:24px; --tab-width:68px; --tab-font:10px; --tab-line:14px; }
+.m-tab-list.tabs-Large { --tab-height:40px; --tab-width:100px; --tab-font:14px; --tab-line:20px; }
+.m-tab-list button { box-sizing:border-box; flex:1; min-width:0; width:0; height:var(--tab-height); padding:0 8px; border:1px solid transparent; border-radius:10px; background:transparent; color:var(--m-text-secondary); font:500 var(--tab-font)/var(--tab-line) 'General Sans','Noto Sans SC',sans-serif; cursor:pointer; white-space:nowrap; }
+.m-tab-list button:hover { background:var(--m-neutral-2); color:var(--m-text-primary); }
+.m-tab-list button[aria-selected='true'] { background:linear-gradient(#ffffff24,#ffffff24),var(--m-surface-default); color:var(--m-text-primary); border-color:var(--m-border-default); box-shadow:0 1px 3px #14141414; }
+.m-tab-list button:focus-visible { outline:2px solid var(--m-brand-solid); outline-offset:2px; }
+.m-tab-list button:disabled { color:var(--m-text-disabled); cursor:not-allowed; }
+.m-tab-list button:disabled:not([aria-selected='true']) { background:transparent; }
+.m-tab-panel { margin-top:16px; }
+.m-skeleton { display:block; position:relative; flex-shrink:0; width:64px; height:12px; border-radius:4px; overflow:hidden; background:var(--m-neutral-2); }
+.m-skeleton.skeleton-Block { height:40px; border-radius:8px; }
+.m-skeleton.skeleton-Circle { width:40px; height:40px; border-radius:9999px; aspect-ratio:1; }
+.m-skeleton::after { content:''; position:absolute; inset:0; border-radius:inherit; background:var(--m-neutral-1); opacity:0; }
+:root[data-theme='dark'] .m-skeleton::after { background:var(--m-neutral-3); }
+.m-skeleton.is-animated::after { animation:slatex-skeleton-pulse 1600ms cubic-bezier(.42,0,.58,1) infinite; }
+@keyframes slatex-skeleton-pulse { 0%,100% {opacity:0} 50% {opacity:1} }
+@media (prefers-reduced-motion:reduce) { .m-skeleton.is-animated::after { animation:none; opacity:0; } }

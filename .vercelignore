@@ -1,0 +1,5 @@
+.cache/
+output/
+dist/
+packages/react/dist/
+docs/sources/slatex/*-context.txt

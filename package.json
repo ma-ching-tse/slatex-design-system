@@ -1,0 +1,37 @@
+{
+  "name": "slatex-design-system",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "packages/react"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run sync:figma && npm run pack:components && tsc -b && vite build",
+    "build:components": "vite build --config vite.library.config.ts && tsc -p packages/react/tsconfig.json && node scripts/package-font.mjs",
+    "pack:components": "npm run build:components && npm pack --workspace @slatex/react --pack-destination public/packages",
+    "test:components": "npm run build:components && node --test tests/*.test.mjs",
+    "verify:components": "npm run pack:components && node scripts/verify-components.mjs",
+    "lint": "oxlint src packages/react/src packages/react/library.ts scripts tests vite.config.ts vite.library.config.ts",
+    "preview": "vite preview",
+    "sync:figma": "node scripts/sync-figma.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-presence": "1.1.10",
+    "@slatex/react": "*",
+    "lucide-react": "^1.47.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "26.1.0",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

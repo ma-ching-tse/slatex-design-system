@@ -1,0 +1,406 @@
+{
+  "remix": [
+    {
+      "name": "search-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/search-line.svg"
+    },
+    {
+      "name": "close-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/close-line.svg"
+    },
+    {
+      "name": "add-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/add-line.svg"
+    },
+    {
+      "name": "subtract-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/subtract-line.svg"
+    },
+    {
+      "name": "arrow-left-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Arrows/arrow-left-line.svg"
+    },
+    {
+      "name": "arrow-right-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Arrows/arrow-right-line.svg"
+    },
+    {
+      "name": "arrow-up-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Arrows/arrow-up-line.svg"
+    },
+    {
+      "name": "arrow-down-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Arrows/arrow-down-line.svg"
+    },
+    {
+      "name": "arrow-left-s-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Arrows/arrow-left-s-line.svg"
+    },
+    {
+      "name": "arrow-right-s-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Arrows/arrow-right-s-line.svg"
+    },
+    {
+      "name": "arrow-up-s-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Arrows/arrow-up-s-line.svg"
+    },
+    {
+      "name": "arrow-down-s-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Arrows/arrow-down-s-line.svg"
+    },
+    {
+      "name": "check-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/check-line.svg"
+    },
+    {
+      "name": "more-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/more-line.svg"
+    },
+    {
+      "name": "menu-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/menu-line.svg"
+    },
+    {
+      "name": "edit-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Design/edit-line.svg"
+    },
+    {
+      "name": "delete-bin-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/delete-bin-line.svg"
+    },
+    {
+      "name": "upload-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/upload-line.svg"
+    },
+    {
+      "name": "download-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/download-line.svg"
+    },
+    {
+      "name": "refresh-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/refresh-line.svg"
+    },
+    {
+      "name": "settings-3-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/settings-3-line.svg"
+    },
+    {
+      "name": "user-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/User%20%26%20Faces/user-line.svg"
+    },
+    {
+      "name": "information-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/information-line.svg"
+    },
+    {
+      "name": "checkbox-circle-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/checkbox-circle-line.svg"
+    },
+    {
+      "name": "error-warning-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/error-warning-line.svg"
+    },
+    {
+      "name": "close-circle-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/close-circle-line.svg"
+    },
+    {
+      "name": "eye-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/eye-line.svg"
+    },
+    {
+      "name": "eye-off-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/eye-off-line.svg"
+    },
+    {
+      "name": "file-copy-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/Document/file-copy-line.svg"
+    },
+    {
+      "name": "external-link-line",
+      "source": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/v4.9.1/icons/System/external-link-line.svg"
+    }
+  ],
+  "media": [
+    {
+      "slug": "openai",
+      "group": "AI",
+      "name": "OpenAI",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "anthropic",
+      "group": "AI",
+      "name": "Anthropic",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "claude",
+      "group": "AI",
+      "name": "Claude",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "gemini",
+      "group": "AI",
+      "name": "Gemini",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "deepseek",
+      "group": "AI",
+      "name": "DeepSeek",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "qwen",
+      "group": "AI",
+      "name": "Qwen",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "kimi",
+      "group": "AI",
+      "name": "Kimi",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "grok",
+      "group": "AI",
+      "name": "Grok",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "mistral",
+      "group": "AI",
+      "name": "Mistral",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "minimax",
+      "group": "AI",
+      "name": "MiniMax",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "flux",
+      "group": "AI",
+      "name": "Flux",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "midjourney",
+      "group": "AI",
+      "name": "Midjourney",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "runway",
+      "group": "AI",
+      "name": "Runway",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "kling",
+      "group": "AI",
+      "name": "Kling",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "luma",
+      "group": "AI",
+      "name": "Luma",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "pika",
+      "group": "AI",
+      "name": "Pika",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "recraft",
+      "group": "AI",
+      "name": "Recraft",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "ideogram",
+      "group": "AI",
+      "name": "Ideogram",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "suno",
+      "group": "AI",
+      "name": "Suno",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "elevenlabs",
+      "group": "AI",
+      "name": "ElevenLabs",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "bytedance",
+      "group": "AI",
+      "name": "ByteDance",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "hunyuan",
+      "group": "AI",
+      "name": "Hunyuan",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "x",
+      "group": "Social",
+      "name": "X",
+      "monochrome": true,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/x.svg"
+    },
+    {
+      "slug": "youtube",
+      "group": "Social",
+      "name": "YouTube",
+      "monochrome": false,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/youtube.svg"
+    },
+    {
+      "slug": "instagram",
+      "group": "Social",
+      "name": "Instagram",
+      "monochrome": false,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/instagram-icon.svg"
+    },
+    {
+      "slug": "tiktok",
+      "group": "Social",
+      "name": "TikTok",
+      "monochrome": false,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/tiktok-icon-light.svg"
+    },
+    {
+      "slug": "discord",
+      "group": "Social",
+      "name": "Discord",
+      "monochrome": false,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/discord.svg"
+    },
+    {
+      "slug": "github",
+      "group": "Social",
+      "name": "GitHub",
+      "monochrome": true,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/github_light.svg"
+    },
+    {
+      "slug": "telegram",
+      "group": "Social",
+      "name": "Telegram",
+      "monochrome": false,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/telegram.svg"
+    },
+    {
+      "slug": "facebook",
+      "group": "Social",
+      "name": "Facebook",
+      "monochrome": false,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/facebook-icon.svg"
+    },
+    {
+      "slug": "linkedin",
+      "group": "Social",
+      "name": "LinkedIn",
+      "monochrome": false,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/linkedin.svg"
+    },
+    {
+      "slug": "reddit",
+      "group": "Social",
+      "name": "Reddit",
+      "monochrome": false,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/reddit.svg"
+    },
+    {
+      "slug": "pinterest",
+      "group": "Social",
+      "name": "Pinterest",
+      "monochrome": false,
+      "source": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/pinterest.svg"
+    },
+    {
+      "slug": "google",
+      "group": "AI",
+      "name": "Google",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "moonshot",
+      "group": "AI",
+      "name": "Moonshot",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "zai",
+      "group": "AI",
+      "name": "Z.AI",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "vidu",
+      "group": "AI",
+      "name": "Vidu",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "pixverse",
+      "group": "AI",
+      "name": "PixVerse",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "kwaikat",
+      "group": "AI",
+      "name": "KwaiKAT",
+      "monochrome": true,
+      "source": "https://github.com/lobehub/lobe-icons"
+    },
+    {
+      "slug": "longcat",
+      "group": "AI",
+      "name": "LongCat",
+      "monochrome": false,
+      "source": "https://github.com/lobehub/lobe-icons"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&display=swap');
+@font-face { font-family: 'General Sans'; src: url('/fonts/GeneralSans-Variable.ttf') format('truetype'); font-style: normal; font-weight: 200 700; font-display: swap; }
+
+:root {
+  font-family: 'General Sans', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root { min-height: 100vh; }

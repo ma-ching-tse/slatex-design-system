@@ -1,0 +1,1590 @@
+{
+  "fileKey": "JsOdWljwN8c1Fnbp3cdOXH",
+  "collections": [
+    {
+      "name": "03 · Dimension",
+      "count": 31
+    },
+    {
+      "name": "01 · Primitives · Color",
+      "count": 92
+    },
+    {
+      "name": "02 · Theme · Color",
+      "count": 90
+    }
+  ],
+  "primitives": {
+    "neutral/50": "#fdfdfdff",
+    "neutral/100": "#f5f5f5ff",
+    "neutral/200": "#f0f0f0ff",
+    "neutral/300": "#e5e5e5ff",
+    "neutral/400": "#cfcfcfff",
+    "neutral/500": "#a0a0a0ff",
+    "neutral/600": "#737373ff",
+    "neutral/700": "#4a4a4aff",
+    "neutral/800": "#242426ff",
+    "neutral/900": "#141414ff",
+    "purple/50": "#f0eaffff",
+    "purple/100": "#e1d6faff",
+    "purple/200": "#c9b9ecff",
+    "purple/300": "#936aedff",
+    "purple/400": "#7c5cfcff",
+    "purple/500": "#7036f0ff",
+    "purple/600": "#6130d6ff",
+    "purple/700": "#5326b5ff",
+    "purple/800": "#3f1c8cff",
+    "purple/900": "#2a125eff",
+    "blue/50": "#e8f5fdff",
+    "blue/100": "#cceaf9ff",
+    "blue/200": "#9cd8f3ff",
+    "blue/300": "#66c3ebff",
+    "blue/400": "#32a6deff",
+    "blue/500": "#0186ceff",
+    "blue/600": "#0074b3ff",
+    "blue/700": "#006090ff",
+    "blue/800": "#00496fff",
+    "blue/900": "#00334fff",
+    "green/50": "#e9fbeaff",
+    "green/100": "#cef6d1ff",
+    "green/200": "#9aefa0ff",
+    "green/300": "#63e76aff",
+    "green/400": "#2fda37ff",
+    "green/500": "#01ce0fff",
+    "green/600": "#00b50cff",
+    "green/700": "#00940aff",
+    "green/800": "#007208ff",
+    "green/900": "#004d05ff",
+    "red/50": "#fef3f2ff",
+    "red/100": "#fee2ddff",
+    "red/200": "#fbc7bdff",
+    "red/300": "#f69786ff",
+    "red/400": "#eb6148ff",
+    "red/500": "#c23a1aff",
+    "red/600": "#ce2301ff",
+    "red/700": "#a83015ff",
+    "red/800": "#7b2110ff",
+    "red/900": "#501407ff",
+    "orange/50": "#fff8eaff",
+    "orange/100": "#feeeccff",
+    "orange/200": "#fed998ff",
+    "orange/300": "#fdc165ff",
+    "orange/400": "#ff8a3dff",
+    "orange/500": "#f38236ff",
+    "orange/600": "#fb741aff",
+    "orange/700": "#f96407ff",
+    "orange/800": "#ce7c01ff",
+    "orange/900": "#662400ff",
+    "black/8": "#00000014",
+    "black/16": "#00000029",
+    "black/24": "#0000003d",
+    "black/32": "#00000052",
+    "black/40": "#00000066",
+    "black/60": "#00000099",
+    "black/80": "#000000cc",
+    "white/8": "#ffffff14",
+    "white/16": "#ffffff29",
+    "white/24": "#ffffff3d",
+    "white/32": "#ffffff52",
+    "white/40": "#ffffff66",
+    "white/60": "#ffffff99",
+    "white/80": "#ffffffcc",
+    "neutral/750": "#2a2a2cff",
+    "purple/250": "#a89fffff",
+    "purple/350": "#8b7effff",
+    "purple/450": "#7856ffff",
+    "purple/650": "#5f41cfff",
+    "neutral/50-alpha-10": "#fdfdfd1a",
+    "neutral/50-alpha-20": "#fdfdfd33",
+    "neutral/50-alpha-35": "#fdfdfd59",
+    "neutral/50-alpha-50": "#fdfdfd80",
+    "neutral/0": "#ffffffff",
+    "neutral/250": "#e7e7e7ff",
+    "neutral/450": "#b8b8b8ff",
+    "neutral/625": "#696969ff",
+    "neutral/675": "#505050ff",
+    "neutral/725": "#353535ff",
+    "neutral/850": "#1d1d1fff",
+    "neutral/950": "#0a0a0aff",
+    "neutral/900-alpha-35": "#14141459"
+  },
+  "theme": [
+    [
+      "neutral/1",
+      "neutral/200",
+      "neutral/800",
+      false
+    ],
+    [
+      "brand/background",
+      "purple/50",
+      "purple/900",
+      true
+    ],
+    [
+      "neutral/2",
+      "neutral/250",
+      "neutral/750",
+      false
+    ],
+    [
+      "brand/2",
+      "purple/100",
+      "purple/800",
+      false
+    ],
+    [
+      "neutral/3",
+      "neutral/300",
+      "neutral/725",
+      false
+    ],
+    [
+      "brand/3",
+      "purple/200",
+      "purple/700",
+      false
+    ],
+    [
+      "neutral/4",
+      "neutral/400",
+      "neutral/675",
+      false
+    ],
+    [
+      "brand/4",
+      "purple/300",
+      "purple/650",
+      false
+    ],
+    [
+      "neutral/5",
+      "neutral/500",
+      "neutral/500",
+      false
+    ],
+    [
+      "brand/5",
+      "purple/400",
+      "purple/450",
+      false
+    ],
+    [
+      "neutral/6",
+      "neutral/600",
+      "neutral/450",
+      false
+    ],
+    [
+      "brand/6",
+      "purple/500",
+      "purple/350",
+      false
+    ],
+    [
+      "neutral/7",
+      "neutral/900",
+      "neutral/50",
+      false
+    ],
+    [
+      "brand/solid",
+      "purple/500",
+      "purple/350",
+      true
+    ],
+    [
+      "neutral/8",
+      "neutral/700",
+      "neutral/400",
+      false
+    ],
+    [
+      "brand/8",
+      "purple/600",
+      "purple/250",
+      false
+    ],
+    [
+      "neutral/9",
+      "neutral/700",
+      "neutral/400",
+      false
+    ],
+    [
+      "brand/foreground",
+      "purple/700",
+      "purple/100",
+      true
+    ],
+    [
+      "neutral/10",
+      "neutral/900",
+      "neutral/50",
+      false
+    ],
+    [
+      "brand/10",
+      "purple/800",
+      "purple/50",
+      false
+    ],
+    [
+      "surface/page",
+      "neutral/100",
+      "neutral/950",
+      true
+    ],
+    [
+      "surface/default",
+      "neutral/0",
+      "neutral/900",
+      true
+    ],
+    [
+      "neutral/on-solid",
+      "neutral/0",
+      "neutral/900",
+      false
+    ],
+    [
+      "brand/on-solid",
+      "neutral/0",
+      "neutral/900",
+      true
+    ],
+    [
+      "green/1",
+      "green/50",
+      "green/900",
+      false
+    ],
+    [
+      "green/2",
+      "green/100",
+      "green/800",
+      false
+    ],
+    [
+      "green/3",
+      "green/200",
+      "green/800",
+      false
+    ],
+    [
+      "green/4",
+      "green/300",
+      "green/600",
+      false
+    ],
+    [
+      "green/5",
+      "green/500",
+      "green/500",
+      false
+    ],
+    [
+      "green/6",
+      "green/700",
+      "green/400",
+      false
+    ],
+    [
+      "green/7",
+      "green/800",
+      "green/300",
+      false
+    ],
+    [
+      "green/8",
+      "green/800",
+      "green/200",
+      false
+    ],
+    [
+      "green/9",
+      "green/800",
+      "green/200",
+      false
+    ],
+    [
+      "green/10",
+      "green/900",
+      "green/50",
+      false
+    ],
+    [
+      "green/on-solid",
+      "neutral/0",
+      "neutral/900",
+      false
+    ],
+    [
+      "blue/1",
+      "blue/50",
+      "blue/900",
+      false
+    ],
+    [
+      "blue/2",
+      "blue/100",
+      "blue/800",
+      false
+    ],
+    [
+      "blue/3",
+      "blue/200",
+      "blue/700",
+      false
+    ],
+    [
+      "blue/4",
+      "blue/300",
+      "blue/600",
+      false
+    ],
+    [
+      "blue/5",
+      "blue/500",
+      "blue/500",
+      false
+    ],
+    [
+      "blue/6",
+      "blue/600",
+      "blue/400",
+      false
+    ],
+    [
+      "blue/7",
+      "blue/600",
+      "blue/300",
+      false
+    ],
+    [
+      "blue/8",
+      "blue/700",
+      "blue/200",
+      false
+    ],
+    [
+      "blue/9",
+      "blue/700",
+      "blue/200",
+      false
+    ],
+    [
+      "blue/10",
+      "blue/900",
+      "blue/50",
+      false
+    ],
+    [
+      "blue/on-solid",
+      "neutral/0",
+      "neutral/900",
+      false
+    ],
+    [
+      "orange/1",
+      "orange/50",
+      "orange/900",
+      false
+    ],
+    [
+      "orange/2",
+      "orange/100",
+      "orange/800",
+      false
+    ],
+    [
+      "orange/3",
+      "orange/200",
+      "orange/900",
+      false
+    ],
+    [
+      "orange/4",
+      "orange/300",
+      "orange/600",
+      false
+    ],
+    [
+      "orange/5",
+      "orange/500",
+      "orange/500",
+      false
+    ],
+    [
+      "orange/6",
+      "orange/800",
+      "orange/400",
+      false
+    ],
+    [
+      "orange/7",
+      "orange/900",
+      "orange/300",
+      false
+    ],
+    [
+      "orange/8",
+      "orange/900",
+      "orange/200",
+      false
+    ],
+    [
+      "orange/9",
+      "orange/900",
+      "orange/200",
+      false
+    ],
+    [
+      "orange/10",
+      "orange/900",
+      "orange/50",
+      false
+    ],
+    [
+      "orange/on-solid",
+      "neutral/0",
+      "neutral/900",
+      false
+    ],
+    [
+      "red/1",
+      "red/50",
+      "red/900",
+      false
+    ],
+    [
+      "red/2",
+      "red/100",
+      "red/800",
+      false
+    ],
+    [
+      "red/3",
+      "red/200",
+      "red/700",
+      false
+    ],
+    [
+      "red/4",
+      "red/300",
+      "red/600",
+      false
+    ],
+    [
+      "red/5",
+      "red/400",
+      "red/500",
+      false
+    ],
+    [
+      "red/6",
+      "red/500",
+      "red/400",
+      false
+    ],
+    [
+      "red/7",
+      "red/500",
+      "red/500",
+      false
+    ],
+    [
+      "red/8",
+      "red/700",
+      "red/700",
+      false
+    ],
+    [
+      "red/9",
+      "red/700",
+      "red/200",
+      false
+    ],
+    [
+      "red/10",
+      "red/900",
+      "red/50",
+      false
+    ],
+    [
+      "red/on-solid",
+      "neutral/0",
+      "neutral/0",
+      false
+    ],
+    [
+      "text/primary",
+      "neutral/900",
+      "neutral/50",
+      true
+    ],
+    [
+      "text/secondary",
+      "neutral/600",
+      "neutral/500",
+      true
+    ],
+    [
+      "text/disabled",
+      "neutral/900-alpha-35",
+      "neutral/50-alpha-35",
+      true
+    ],
+    [
+      "text/inverse",
+      "neutral/0",
+      "neutral/900",
+      true
+    ],
+    [
+      "border/default",
+      "neutral/300",
+      "neutral/725",
+      true
+    ],
+    [
+      "status/success/foreground",
+      "green/800",
+      "green/200",
+      true
+    ],
+    [
+      "status/info/foreground",
+      "blue/700",
+      "blue/200",
+      true
+    ],
+    [
+      "status/warning/foreground",
+      "orange/900",
+      "orange/200",
+      true
+    ],
+    [
+      "status/error/foreground",
+      "red/700",
+      "red/200",
+      true
+    ],
+    [
+      "border/hover",
+      "neutral/400",
+      "neutral/675",
+      true
+    ],
+    [
+      "border/strong",
+      "neutral/600",
+      "neutral/500",
+      true
+    ],
+    [
+      "status/success/background",
+      "green/50",
+      "green/900",
+      true
+    ],
+    [
+      "status/success/border",
+      "green/700",
+      "green/600",
+      true
+    ],
+    [
+      "status/info/background",
+      "blue/50",
+      "blue/900",
+      true
+    ],
+    [
+      "status/info/border",
+      "blue/600",
+      "blue/500",
+      true
+    ],
+    [
+      "status/warning/background",
+      "orange/50",
+      "orange/900",
+      true
+    ],
+    [
+      "status/warning/border",
+      "orange/800",
+      "orange/500",
+      true
+    ],
+    [
+      "status/error/background",
+      "red/50",
+      "red/900",
+      true
+    ],
+    [
+      "status/error/border",
+      "red/500",
+      "red/400",
+      true
+    ],
+    [
+      "overlay/scrim",
+      "black/40",
+      "black/60",
+      true
+    ],
+    [
+      "internal/input-ring/editing",
+      "#7036f033",
+      "#8b7eff33",
+      false
+    ],
+    [
+      "internal/input-ring/error",
+      "#c23a1a33",
+      "#eb614833",
+      false
+    ]
+  ],
+  "dimension": {
+    "space/4": 4,
+    "space/8": 8,
+    "space/12": 12,
+    "space/16": 16,
+    "space/20": 20,
+    "space/24": 24,
+    "space/32": 32,
+    "space/40": 40,
+    "space/48": 48,
+    "space/64": 64,
+    "space/80": 80,
+    "radius/4": 4,
+    "radius/8": 8,
+    "radius/12": 12,
+    "radius/9999": 9999,
+    "control/height/sm": 20,
+    "control/height/md": 32,
+    "control/height/lg": 40,
+    "motion/fast": 150,
+    "motion/standard": 200,
+    "radius/0": 0,
+    "radius/6": 6,
+    "radius/28": 28,
+    "space/0": 0,
+    "space/2": 2,
+    "space/6": 6,
+    "space/96": 96,
+    "space/128": 128,
+    "radius/16": 16,
+    "radius/20": 20,
+    "radius/24": 24
+  },
+  "textStyles": [
+    [
+      "Text/10/Regular",
+      "General Sans",
+      "Regular",
+      10,
+      {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/10/Medium",
+      "General Sans",
+      "Medium",
+      10,
+      {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/10/SemiBold",
+      "General Sans",
+      "SemiBold",
+      10,
+      {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/12/Regular",
+      "General Sans",
+      "Regular",
+      12,
+      {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/14/Regular",
+      "General Sans",
+      "Regular",
+      14,
+      {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/16/Regular",
+      "General Sans",
+      "Regular",
+      16,
+      {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/14/Medium",
+      "General Sans",
+      "Medium",
+      14,
+      {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/16/Medium",
+      "General Sans",
+      "Medium",
+      16,
+      {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/16/SemiBold",
+      "General Sans",
+      "SemiBold",
+      16,
+      {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/20/Regular",
+      "General Sans",
+      "Regular",
+      20,
+      {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/20/Medium",
+      "General Sans",
+      "Medium",
+      20,
+      {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/20/SemiBold",
+      "General Sans",
+      "SemiBold",
+      20,
+      {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/28/Regular",
+      "General Sans",
+      "Regular",
+      28,
+      {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/40/Regular",
+      "General Sans",
+      "Regular",
+      40,
+      {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/40/Medium",
+      "General Sans",
+      "Medium",
+      40,
+      {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/40/SemiBold",
+      "General Sans",
+      "SemiBold",
+      40,
+      {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/12/Medium",
+      "General Sans",
+      "Medium",
+      12,
+      {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/12/SemiBold",
+      "General Sans",
+      "SemiBold",
+      12,
+      {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/14/SemiBold",
+      "General Sans",
+      "SemiBold",
+      14,
+      {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/28/Medium",
+      "General Sans",
+      "Medium",
+      28,
+      {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/28/SemiBold",
+      "General Sans",
+      "SemiBold",
+      28,
+      {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/48/Regular",
+      "General Sans",
+      "Regular",
+      48,
+      {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/24/Regular",
+      "General Sans",
+      "Regular",
+      24,
+      {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/32/Regular",
+      "General Sans",
+      "Regular",
+      32,
+      {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/18/Regular",
+      "General Sans",
+      "Regular",
+      18,
+      {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/18/Medium",
+      "General Sans",
+      "Medium",
+      18,
+      {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/18/SemiBold",
+      "General Sans",
+      "SemiBold",
+      18,
+      {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/24/Medium",
+      "General Sans",
+      "Medium",
+      24,
+      {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/24/SemiBold",
+      "General Sans",
+      "SemiBold",
+      24,
+      {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/32/Medium",
+      "General Sans",
+      "Medium",
+      32,
+      {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/32/SemiBold",
+      "General Sans",
+      "SemiBold",
+      32,
+      {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/36/Regular",
+      "General Sans",
+      "Regular",
+      36,
+      {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/36/Medium",
+      "General Sans",
+      "Medium",
+      36,
+      {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/36/SemiBold",
+      "General Sans",
+      "SemiBold",
+      36,
+      {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/48/Medium",
+      "General Sans",
+      "Medium",
+      48,
+      {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/48/SemiBold",
+      "General Sans",
+      "SemiBold",
+      48,
+      {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/56/Regular",
+      "General Sans",
+      "Regular",
+      56,
+      {
+        "unit": "PIXELS",
+        "value": 64
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/56/Medium",
+      "General Sans",
+      "Medium",
+      56,
+      {
+        "unit": "PIXELS",
+        "value": 64
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/56/SemiBold",
+      "General Sans",
+      "SemiBold",
+      56,
+      {
+        "unit": "PIXELS",
+        "value": 64
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/64/Regular",
+      "General Sans",
+      "Regular",
+      64,
+      {
+        "unit": "PIXELS",
+        "value": 72
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/64/Medium",
+      "General Sans",
+      "Medium",
+      64,
+      {
+        "unit": "PIXELS",
+        "value": 72
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ],
+    [
+      "Text/64/SemiBold",
+      "General Sans",
+      "SemiBold",
+      64,
+      {
+        "unit": "PIXELS",
+        "value": 72
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    ]
+  ],
+  "effects": [
+    {
+      "name": "Elevation/Small",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    },
+    {
+      "name": "Elevation/Medium",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 6,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": -1,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": -2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    },
+    {
+      "name": "Elevation/Large",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 15,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 10
+          },
+          "spread": -3,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    },
+    {
+      "name": "Elevation/Popover",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 12,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": -2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    }
+  ],
+  "frames": [
+    [
+      "10:2",
+      "Atlas Cloud · Foundations v0.1",
+      "FRAME"
+    ],
+    [
+      "83:349",
+      "BMDS V3.0 · Color",
+      "FRAME"
+    ],
+    [
+      "115:217",
+      "image 1",
+      "RECTANGLE"
+    ],
+    [
+      "125:780",
+      "BMDS V3.0 · Color",
+      "FRAME"
+    ],
+    [
+      "125:1759",
+      "Frame 1321318792",
+      "FRAME"
+    ],
+    [
+      "125:1761",
+      "image 2",
+      "RECTANGLE"
+    ],
+    [
+      "125:1770",
+      "image 3",
+      "RECTANGLE"
+    ],
+    [
+      "125:1763",
+      "Frame 1321318793",
+      "FRAME"
+    ],
+    [
+      "125:1771",
+      "Frame 1321318796",
+      "FRAME"
+    ],
+    [
+      "132:379",
+      "Frame 1321318799",
+      "FRAME"
+    ],
+    [
+      "125:1764",
+      "Frame 1321318794",
+      "FRAME"
+    ],
+    [
+      "125:1772",
+      "Frame 1321318797",
+      "FRAME"
+    ],
+    [
+      "132:381",
+      "Frame 1321318800",
+      "FRAME"
+    ],
+    [
+      "125:1765",
+      "Frame 1321318795",
+      "FRAME"
+    ],
+    [
+      "125:1773",
+      "Frame 1321318798",
+      "FRAME"
+    ],
+    [
+      "132:383",
+      "Frame 1321318801",
+      "FRAME"
+    ],
+    [
+      "125:2137",
+      "history page_multiple video",
+      "FRAME"
+    ],
+    [
+      "132:357",
+      "image 4",
+      "RECTANGLE"
+    ],
+    [
+      "148:336",
+      "BMDS V3.0 · Typography",
+      "FRAME"
+    ],
+    [
+      "170:147",
+      "Archive · Typography v1.0 · 2026-09-28",
+      "RECTANGLE"
+    ],
+    [
+      "182:147",
+      "Archive · Primitives Color · 2026-09-28",
+      "RECTANGLE"
+    ],
+    [
+      "182:148",
+      "Archive · Semantic Color · 2026-09-28",
+      "RECTANGLE"
+    ],
+    [
+      "183:1340",
+      "Light and Dark examples",
+      "FRAME"
+    ],
+    [
+      "226:847",
+      "Section 1",
+      "SECTION"
+    ],
+    [
+      "226:207",
+      "Video_workflow",
+      "FRAME"
+    ]
+  ],
+  "capturedAt": "2026-10-03",
+  "nodes": [
+    {
+      "id": "124:216",
+      "name": "SlateX Design System · Theme Color · 常用颜色",
+      "type": "FRAME"
+    },
+    {
+      "id": "211:182",
+      "name": "SlateX Design System · Theme Color · 组件色阶",
+      "type": "FRAME"
+    },
+    {
+      "id": "191:156",
+      "name": "SlateX Design System · Spacing v1.0",
+      "type": "FRAME"
+    },
+    {
+      "id": "191:239",
+      "name": "SlateX Design System · Radius v1.0",
+      "type": "FRAME"
+    },
+    {
+      "id": "191:301",
+      "name": "SlateX Design System · Border v1.0",
+      "type": "FRAME"
+    },
+    {
+      "id": "197:147",
+      "missing": true
+    },
+    {
+      "id": "259:261",
+      "missing": true
+    },
+    {
+      "id": "246:2",
+      "name": "Layout · 选择与使用",
+      "type": "FRAME"
+    },
+    {
+      "id": "247:2",
+      "name": "Accessibility · 01 / 视觉与可读性",
+      "type": "FRAME"
+    },
+    {
+      "id": "150:293",
+      "name": "SlateX Design System · Typography · General Sans v1.1",
+      "type": "FRAME"
+    }
+  ]
+}

@@ -1,0 +1,877 @@
+{
+  "dimensions": [
+    [
+      "space/4",
+      4
+    ],
+    [
+      "space/8",
+      8
+    ],
+    [
+      "space/12",
+      12
+    ],
+    [
+      "space/16",
+      16
+    ],
+    [
+      "space/20",
+      20
+    ],
+    [
+      "space/24",
+      24
+    ],
+    [
+      "space/32",
+      32
+    ],
+    [
+      "space/40",
+      40
+    ],
+    [
+      "space/48",
+      48
+    ],
+    [
+      "space/64",
+      64
+    ],
+    [
+      "space/80",
+      80
+    ],
+    [
+      "radius/4",
+      4
+    ],
+    [
+      "radius/8",
+      8
+    ],
+    [
+      "radius/12",
+      12
+    ],
+    [
+      "radius/9999",
+      9999
+    ],
+    [
+      "control/height/sm",
+      20
+    ],
+    [
+      "control/height/md",
+      32
+    ],
+    [
+      "control/height/lg",
+      40
+    ],
+    [
+      "motion/fast",
+      150
+    ],
+    [
+      "motion/standard",
+      200
+    ],
+    [
+      "radius/0",
+      0
+    ],
+    [
+      "radius/6",
+      6
+    ],
+    [
+      "radius/28",
+      28
+    ],
+    [
+      "space/0",
+      0
+    ],
+    [
+      "space/2",
+      2
+    ],
+    [
+      "space/6",
+      6
+    ],
+    [
+      "space/96",
+      96
+    ],
+    [
+      "space/128",
+      128
+    ],
+    [
+      "radius/16",
+      16
+    ],
+    [
+      "radius/20",
+      20
+    ],
+    [
+      "radius/24",
+      24
+    ]
+  ],
+  "textStyles": [
+    [
+      "Text/10/Regular",
+      "General Sans",
+      "Regular",
+      10,
+      {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/10/Medium",
+      "General Sans",
+      "Medium",
+      10,
+      {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/10/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      10,
+      {
+        "unit": "PIXELS",
+        "value": 14
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/12/Regular",
+      "General Sans",
+      "Regular",
+      12,
+      {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/14/Regular",
+      "General Sans",
+      "Regular",
+      14,
+      {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/16/Regular",
+      "General Sans",
+      "Regular",
+      16,
+      {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/14/Medium",
+      "General Sans",
+      "Medium",
+      14,
+      {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/16/Medium",
+      "General Sans",
+      "Medium",
+      16,
+      {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/16/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      16,
+      {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/20/Regular",
+      "General Sans",
+      "Regular",
+      20,
+      {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/20/Medium",
+      "General Sans",
+      "Medium",
+      20,
+      {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/20/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      20,
+      {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/24/Regular",
+      "General Sans",
+      "Regular",
+      24,
+      {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/24/Medium",
+      "General Sans",
+      "Medium",
+      24,
+      {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/24/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      24,
+      {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/28/Regular",
+      "General Sans",
+      "Regular",
+      28,
+      {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/32/Regular",
+      "General Sans",
+      "Regular",
+      32,
+      {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/32/Medium",
+      "General Sans",
+      "Medium",
+      32,
+      {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/32/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      32,
+      {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/36/Regular",
+      "General Sans",
+      "Regular",
+      36,
+      {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/36/Medium",
+      "General Sans",
+      "Medium",
+      36,
+      {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/36/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      36,
+      {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/40/Regular",
+      "General Sans",
+      "Regular",
+      40,
+      {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/40/Medium",
+      "General Sans",
+      "Medium",
+      40,
+      {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/40/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      40,
+      {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/12/Medium",
+      "General Sans",
+      "Medium",
+      12,
+      {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/12/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      12,
+      {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/14/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      14,
+      {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/28/Medium",
+      "General Sans",
+      "Medium",
+      28,
+      {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/28/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      28,
+      {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/48/Regular",
+      "General Sans",
+      "Regular",
+      48,
+      {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/48/Medium",
+      "General Sans",
+      "Medium",
+      48,
+      {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/48/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      48,
+      {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/56/Regular",
+      "General Sans",
+      "Regular",
+      56,
+      {
+        "unit": "PIXELS",
+        "value": 64
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/56/Medium",
+      "General Sans",
+      "Medium",
+      56,
+      {
+        "unit": "PIXELS",
+        "value": 64
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/56/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      56,
+      {
+        "unit": "PIXELS",
+        "value": 64
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ],
+    [
+      "Text/64/Regular",
+      "General Sans",
+      "Regular",
+      64,
+      {
+        "unit": "PIXELS",
+        "value": 72
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/64/Medium",
+      "General Sans",
+      "Medium",
+      64,
+      {
+        "unit": "PIXELS",
+        "value": 72
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      null
+    ],
+    [
+      "Text/64/SemiBold",
+      "General Sans Variable",
+      "Semibold",
+      64,
+      {
+        "unit": "PIXELS",
+        "value": 72
+      },
+      {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      {
+        "wght": 550
+      }
+    ]
+  ],
+  "effects": [
+    [
+      "Elevation/Small",
+      [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    ],
+    [
+      "Elevation/Medium",
+      [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 6,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": -1,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": -2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    ],
+    [
+      "Elevation/Large",
+      [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 15,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 10
+          },
+          "spread": -3,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    ],
+    [
+      "Elevation/Popover",
+      [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 12,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": -2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ]
+    ]
+  ]
+}

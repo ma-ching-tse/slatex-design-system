@@ -1,0 +1,22 @@
+.m-button { --fill:var(--m-brand-solid);--hover:var(--m-brand-8);--pressed:color-mix(in srgb,var(--hover),black 12%);--front:var(--m-brand-on-solid);--height:40px;--pad:16px;--icon:16px;--radius:12px; box-sizing:border-box;position:relative; display:inline-flex;align-items:center;justify-content:center;flex-shrink:0; height:var(--height);padding:0 var(--pad);border:0 solid transparent;border-radius:var(--radius);background:var(--fill);color:var(--front);font-family:inherit;font-size:14px;font-weight:500;line-height:20px;cursor:pointer;white-space:nowrap; }
+.m-button-content {display:inline-flex;align-items:center;gap:4px;} .m-button svg {width:var(--icon);height:var(--icon);}
+.m-button.kind-Primary {--pressed:var(--m-brand-pressed,color-mix(in srgb,var(--hover),black 12%));}
+.m-button.kind-Neutral {--fill:var(--m-neutral-7);--hover:var(--m-neutral-8);--front:var(--m-neutral-on-solid);}
+.m-button.kind-Secondary {--fill:var(--m-neutral-1);--hover:var(--m-neutral-2);--pressed:var(--m-neutral-3);--front:var(--m-text-primary);border:1px solid var(--m-border-default);}
+.m-button.kind-Tertiary {--fill:transparent;--hover:var(--m-neutral-1);--pressed:var(--m-neutral-2);--front:var(--m-text-primary);}
+.m-button.kind-Danger {--fill:var(--m-red-7);--hover:var(--m-red-8);--front:var(--m-red-on-solid);}
+.m-button:not(:disabled):hover,.m-button.state-Hover {background:var(--hover);}
+.m-button:not(:disabled):active,.m-button.state-Pressed {background:var(--pressed);}
+.m-button:not(:disabled):active {scale:0.97;}
+.m-button.kind-Secondary:not(:disabled):hover,.m-button.kind-Secondary.state-Hover {border-color:var(--m-border-hover);}
+.m-button.kind-Secondary:not(:disabled):active,.m-button.kind-Secondary.state-Pressed {border-color:var(--m-border-strong);}
+.m-button.state-Disabled {background:var(--m-neutral-1);color:var(--m-text-disabled);cursor:not-allowed;}
+.m-button.kind-Tertiary.state-Disabled {background:transparent;}
+.m-button.state-Loading {cursor:wait;} .m-button.state-Loading .m-button-content {opacity:0;}
+.m-spinner {box-sizing:border-box;position:absolute;width:var(--icon);height:var(--icon);border:1.5px solid currentColor;border-right-color:transparent;border-radius:50%;animation:m-spinner-rotate 1s linear infinite;}
+@keyframes m-spinner-rotate {to {transform:rotate(360deg);}}
+@media(prefers-reduced-motion:reduce) {.m-spinner {animation:none;} .m-button:not(:disabled):active {scale:1;}}
+.m-button.size-Tiny {--height:24px;--pad:8px;--icon:14px;--radius:6px;font-size:12px;line-height:16px;}
+.m-button.size-Small {--height:32px;--pad:12px;--radius:8px;}
+.m-button.size-Large {--height:48px;--pad:20px;font-size:16px;line-height:24px;}
+.m-button.is-pill {border-radius:9999px;}.m-button.is-icon {width:var(--height);padding:0;}

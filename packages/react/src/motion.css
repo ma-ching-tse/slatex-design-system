@@ -1,0 +1,36 @@
+:root {
+  --m-motion-enter: 200ms;
+  --m-motion-exit: 150ms;
+  --m-motion-ease-enter: cubic-bezier(.16,1,.3,1);
+  --m-motion-ease-exit: cubic-bezier(.4,0,1,1);
+}
+
+@keyframes m-fade-in { from { opacity:0; } to { opacity:1; } }
+@keyframes m-fade-out { from { opacity:1; } to { opacity:0; } }
+@keyframes m-scale-in { from { opacity:0; scale:.98; } to { opacity:1; scale:1; } }
+@keyframes m-scale-out { from { opacity:1; scale:1; } to { opacity:0; scale:.98; } }
+@keyframes m-slide-in { from { opacity:0; translate:var(--m-motion-x,0) var(--m-motion-y,4px); } to { opacity:1; translate:0 0; } }
+@keyframes m-slide-out { from { opacity:1; translate:0 0; } to { opacity:0; translate:var(--m-motion-x,0) var(--m-motion-y,4px); } }
+
+.m-dialog,.m-popover { --m-motion-in:m-scale-in; --m-motion-out:m-scale-out; }
+.m-dialog-overlay,.m-tooltip { --m-motion-in:m-fade-in; --m-motion-out:m-fade-out; }
+.m-select-panel,.m-search-panel,.m-toast-floating { --m-motion-in:m-slide-in; --m-motion-out:m-slide-out; }
+.m-popover { transform-origin:var(--radix-popover-content-transform-origin); }
+.m-select-panel,.m-search-panel { --m-motion-y:-4px; }
+:is(.m-select-panel,.m-search-panel)[data-side='top'] { --m-motion-y:4px; }
+:is(.m-select-panel,.m-search-panel)[data-side='left'] { --m-motion-x:4px; --m-motion-y:0px; }
+:is(.m-select-panel,.m-search-panel)[data-side='right'] { --m-motion-x:-4px; --m-motion-y:0px; }
+.m-toast-floating { --m-motion-y:6px; }
+.m-tooltip { --m-motion-enter:120ms; --m-motion-exit:80ms; }
+:is(.m-dialog,.m-dialog-overlay,.m-popover,.m-select-panel,.m-search-panel,.m-toast-floating,.m-tooltip)[data-state='open'],
+.m-tooltip:is([data-state='delayed-open'],[data-state='instant-open']) {
+  animation:var(--m-motion-in) var(--m-motion-enter) var(--m-motion-ease-enter) both;
+}
+:is(.m-dialog,.m-dialog-overlay,.m-popover,.m-select-panel,.m-search-panel,.m-toast-floating,.m-tooltip)[data-state='closed'] {
+  animation:var(--m-motion-out) var(--m-motion-exit) var(--m-motion-ease-exit) both;
+  pointer-events:none;
+}
+
+@media(prefers-reduced-motion:reduce) {
+  :is(.m-dialog,.m-dialog-overlay,.m-popover,.m-select-panel,.m-search-panel,.m-toast-floating,.m-tooltip) { animation:none !important; }
+}

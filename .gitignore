@@ -1,0 +1,11 @@
+.cache/
+node_modules/
+dist/
+output/
+.vercel/
+*.tsbuildinfo
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
