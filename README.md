@@ -1,5 +1,7 @@
 # SlateX Design System
 
+[在线查看](https://slatex-design-system.vercel.app) · [GitHub](https://github.com/ma-ching-tse/slatex-design-system)
+
 基于 Master 的独立查阅站。设计依据：[SlateX Figma](https://www.figma.com/design/JsOdWljwN8c1Fnbp3cdOXH/SlateX-Design-System?node-id=509-506)，快照日期 2026-10-18。
 
 ## 范围
