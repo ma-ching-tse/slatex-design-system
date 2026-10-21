@@ -23,6 +23,10 @@ test('tabs select the first available option by default and accept controlled se
   assert.match(controlled,/aria-selected="true"[^>]*>B/)
 })
 test('skeletons are decorative, adjustable, optionally static and keep circular placeholders square', () => {
+  const circle=renderToStaticMarkup(h(SlateXSkeleton,{shape:'Circle'}))
+  assert.match(circle,/width:40px;height:40px/)
+  assert.match(circle,/aria-hidden="true"/)
+  assert.doesNotMatch(circle,/<svg|<img/)
   const html=renderToStaticMarkup(h(SlateXSkeleton,{shape:'Block',width:280,height:144}))
   assert.match(html,/aria-hidden="true"/)
   assert.match(html,/width:280px;height:144px/)

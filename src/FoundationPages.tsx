@@ -82,7 +82,8 @@ function Typography() {
     ]} /></details></Section></>
 }
 function Spacing() {
-  return <><Section title="Scale"><div className="foundation-spacing-list">{dimensions('space').map(token => <div className="foundation-spacing-row" key={token.name}><CopyButton value={cssName(token.name)} label={token.name} /><div className="foundation-spacing-track"><span style={{ width: token.value }} /></div><strong>{token.value} px</strong></div>)}</div></Section><Section title="CSS"><Code code={".card {\n  padding: var(--m-space-24);\n  gap: var(--m-space-16);\n}"} /></Section></>
+  const { t } = useLocale()
+  return <><Section title="Scale"><div className="foundation-spacing-list">{dimensions('space').map(token => <div className="foundation-spacing-row" key={token.name}><CopyButton value={cssName(token.name)} label={token.name} /><div className="foundation-spacing-track"><span style={{ width: token.value }} /></div><strong>{token.value} px</strong></div>)}</div></Section><Section title={t("使用规则")}><Specs columns={[t("用途"),"px"]} rows={[["Input / Select / Search", "12"],["Dropdown", "4 + 8"],["Button · Tiny / Small / Medium / Large", "8 / 12 / 16 / 20"],[t("图文间距"),"4"],[t("Label 与输入区间距"),"6"]]} /></Section><Section title="CSS"><Code code={".card {\n  padding: var(--m-space-24);\n  gap: var(--m-space-16);\n}"} /></Section></>
 }
 function Radius() {
   const { t } = useLocale()
@@ -142,7 +143,7 @@ function Icons({ theme }: { theme: Theme }) {
   return <><Section title="Lucide"><div className="foundation-icon-grid">{Object.keys(slatexIcons).map(name => ({name})).map(icon => <button type="button" key={icon.name} onClick={() => copy(icon.name)} aria-label={`${t('Copy')} Icon/${icon.name}`} title={`Icon/${icon.name}`}><Icon name={icon.name} /><span>{copied === icon.name ? t('已复制') : icon.name}</span></button>)}</div></Section>
     <Section title={t("尺寸与配置")}><div className="foundation-icon-sizes">{[16,20,24,32].map(size => <div key={size}><Icon name="search" size={size} /><span>{size} px</span></div>)}</div><div className="foundation-icon-text"><Icon name="search" size={16} /><span>Search 搜索</span><code>14 / 20 · gap 4</code></div></Section>
     <Section title="Media"><details className="component-details"><summary>40 brands · Mono / Color</summary>{['AI','Social'].map(group => <div className="foundation-media-group" key={group}><h3>{group}</h3><div className="foundation-media-grid">{iconLibrary.media.filter(icon => icon.group === group).map(icon => <div key={icon.slug}><div><span className="foundation-icon" aria-hidden="true" style={{maskImage:`url('${import.meta.env.BASE_URL}icons/media/${icon.slug}-mono.svg')`}} />{!icon.monochrome ? <img src={`${import.meta.env.BASE_URL}icons/media/${icon.slug}-color${theme === 'dark' && ['kimi','tiktok'].includes(icon.slug) ? '-dark' : ''}.svg`} width="24" height="24" alt="" /> : null}</div><CopyButton value={`Icon/${icon.slug}-mono`} label={icon.name} /></div>)}</div></div>)}</details></Section>
-    <Section title={t("资源")}><a className="source-link" href={`${import.meta.env.BASE_URL}icons/slatex-lucide.svg.zip`} download>Lucide · 80 SVG ↗</a><details className="component-details"><summary>{t("来源")}</summary><div className="foundation-source-list"><a href="https://lucide.dev/icons" target="_blank" rel="noreferrer">Lucide ↗</a><a href="https://github.com/lobehub/lobe-icons" target="_blank" rel="noreferrer">Lobe Icons 1.95.1 ↗</a><a href="https://github.com/pheralb/svgl" target="_blank" rel="noreferrer">SVGL ↗</a><a href="https://github.com/simple-icons/simple-icons" target="_blank" rel="noreferrer">Simple Icons 16.33.0 ↗</a></div></details></Section></>
+    <Section title={t("资源")}><a className="source-link" href={`${import.meta.env.BASE_URL}icons/slatex-lucide.svg.zip`} download>Lucide · {Object.keys(slatexIcons).length} SVG ↗</a><details className="component-details"><summary>{t("来源")}</summary><div className="foundation-source-list"><a href="https://lucide.dev/icons" target="_blank" rel="noreferrer">Lucide ↗</a><a href="https://github.com/lobehub/lobe-icons" target="_blank" rel="noreferrer">Lobe Icons 1.95.1 ↗</a><a href="https://github.com/pheralb/svgl" target="_blank" rel="noreferrer">SVGL ↗</a><a href="https://github.com/simple-icons/simple-icons" target="_blank" rel="noreferrer">Simple Icons 16.33.0 ↗</a></div></details></Section></>
 }
 function Effects() {
   return <><Section title="Elevation"><div className="foundation-elevation-grid">{foundationSource.effects.map(style => {
@@ -177,9 +178,9 @@ function Naming() {
   const { t } = useLocale()
 
   return <><Section title="Names"><Specs columns={[t('对象'),t('命名')]} rows={[
-    [t('基础色'),'neutral/600'],[t('主题色'),'text/secondary · brand/on-solid'],[t('间距 / 圆角'),'space/16 · radius/12'],[t('文字样式'),'Text/14/Medium'],[t('图标'),'Icon/search'],[t('组件属性'),'Type / Size / State / Shape / Content'],
+    [t('基础色'),'neutral/600'],[t('主题色'),'text/secondary · brand/on-solid'],[t('间距 / 圆角'),'space/16 · radius/12'],[t('文字样式'),'Text/14/Medium'],[t('图标'),'Icon/search'],[t('组件属性'),'Type / Size / State / Content'],
   ]} /></Section><Section title="Bindings"><Specs columns={[t('属性'),t('来源')]} rows={[
-    [t('颜色'),'02 · Theme · Color · Light / Dark'],[t('字号 / 行高 / 字距'),t('Text 样式')],[t('间距 / 圆角'),'03 · Dimension'],[t('组件尺寸'),t('组件自身规格')],[t('项目复制'),t('变量 + 文字样式 + 主组件依赖')],
+    [t('颜色'),'02 · Theme · Color · Light / Dark'],[t('品牌'),'04 · Brand · Orange / Yellow / Purple'],[t('字号 / 行高 / 字距'),t('Text 样式')],[t('间距 / 圆角'),'03 · Dimension'],[t('组件尺寸'),t('组件自身规格')],[t('项目复制'),t('变量 + 文字样式 + 主组件依赖')],
   ]} /></Section></>
 }
 export function FoundationPage({ id, theme, onNavigate }: { id: string; theme: Theme; onNavigate: (id: string) => void }) {

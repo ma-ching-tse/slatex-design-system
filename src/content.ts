@@ -14,8 +14,8 @@ export interface NavigationItem {
 export const siteConfig = {
   name: 'SlateX Design System',
   organization: 'Design Library',
-  version: 'v1.0',
-  updatedAt: '2026.10.18',
+  version: 'v1.1',
+  updatedAt: '2026.10.21',
   description: '面向设计师与前端的组件与规范查阅站。',
   figmaUrl: 'https://www.figma.com/design/JsOdWljwN8c1Fnbp3cdOXH/SlateX-Design-System?node-id=0-1',
 }

@@ -1,0 +1,314 @@
+{
+  "properties": {
+    "Initials#411:0": {
+      "type": "TEXT",
+      "defaultValue": "A"
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Image",
+      "variantOptions": [
+        "Image",
+        "Initials",
+        "Icon"
+      ]
+    }
+  },
+  "description": "圆形头像。Type：Image / Initials / Icon。统一 32 × 32 px 基准，无 Size 变体；使用 Scale（K）等比缩放。图片头像选择 Image 层替换图片填充；Initials 建议 1–2 个字符；Icon 使用 Lucide/user。图片保持原色，字母和图标头像随 Light / Dark 主题切换。",
+  "variants": [
+    {
+      "id": "411:8",
+      "type": "COMPONENT",
+      "name": "Type=Image",
+      "width": 32,
+      "height": 32,
+      "fill": [],
+      "stroke": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "text": null,
+      "children": [
+        {
+          "id": "411:9",
+          "type": "FRAME",
+          "name": "Image",
+          "width": 32,
+          "height": 32,
+          "fill": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "FILL",
+              "scalingFactor": 0.5,
+              "rotation": 0,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "imageHash": "9ccae1df38168ac307b34a8cb529b93eb31f175c"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.8980392217636108,
+                "g": 0.8980392217636108,
+                "b": 0.8980392217636108
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:215:205"
+                }
+              }
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "text": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "411:20",
+      "type": "COMPONENT",
+      "name": "Type=Initials",
+      "width": 32,
+      "height": 32,
+      "fill": [],
+      "stroke": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "text": null,
+      "children": [
+        {
+          "id": "411:21",
+          "type": "FRAME",
+          "name": "Avatar",
+          "width": 32,
+          "height": 32,
+          "fill": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9058823585510254,
+                "g": 0.9058823585510254,
+                "b": 0.9058823585510254
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:211:160"
+                }
+              }
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.8980392217636108,
+                "g": 0.8980392217636108,
+                "b": 0.8980392217636108
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:215:205"
+                }
+              }
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "text": null,
+          "children": [
+            {
+              "id": "411:22",
+              "type": "TEXT",
+              "name": "Initials",
+              "width": 10,
+              "height": 20,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.45098039507865906,
+                    "g": 0.45098039507865906,
+                    "b": 0.45098039507865906
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:215:202"
+                    }
+                  }
+                }
+              ],
+              "stroke": [],
+              "strokeWeight": 1,
+              "strokeAlign": "OUTSIDE",
+              "text": {
+                "characters": "A",
+                "fontName": {
+                  "family": "General Sans",
+                  "style": "Medium"
+                },
+                "fontSize": 14,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 20
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "411:38",
+      "type": "COMPONENT",
+      "name": "Type=Icon",
+      "width": 32,
+      "height": 32,
+      "fill": [],
+      "stroke": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "text": null,
+      "children": [
+        {
+          "id": "411:39",
+          "type": "FRAME",
+          "name": "Avatar",
+          "width": 32,
+          "height": 32,
+          "fill": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9058823585510254,
+                "g": 0.9058823585510254,
+                "b": 0.9058823585510254
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:211:160"
+                }
+              }
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.8980392217636108,
+                "g": 0.8980392217636108,
+                "b": 0.8980392217636108
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:215:205"
+                }
+              }
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "text": null,
+          "children": [
+            {
+              "id": "411:40",
+              "type": "INSTANCE",
+              "name": "User icon",
+              "width": 20,
+              "height": 20,
+              "fill": [],
+              "stroke": [],
+              "strokeWeight": 0.8333333134651184,
+              "strokeAlign": "INSIDE",
+              "text": null,
+              "children": [
+                {
+                  "id": "I411:40;2138:17923",
+                  "type": "VECTOR",
+                  "name": "Union",
+                  "width": 13.333333015441895,
+                  "height": 16.66666603088379,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendMode": "NORMAL",
+                      "color": {
+                        "r": 0.45098039507865906,
+                        "g": 0.45098039507865906,
+                        "b": 0.45098039507865906
+                      },
+                      "boundVariables": {
+                        "color": {
+                          "type": "VARIABLE_ALIAS",
+                          "id": "VariableID:215:202"
+                        }
+                      }
+                    }
+                  ],
+                  "stroke": [],
+                  "strokeWeight": 0.8333333134651184,
+                  "strokeAlign": "INSIDE",
+                  "text": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

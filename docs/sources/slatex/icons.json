@@ -1,0 +1,373 @@
+{
+  "capturedAt": "2026-10-21",
+  "fileKey": "JsOdWljwN8c1Fnbp3cdOXH",
+  "nodeId": "362:2181",
+  "count": 91,
+  "excluded": "Icon/ratio is a separate custom ratio component set.",
+  "icons": [
+    {
+      "nodeId": "2047:515",
+      "name": "house"
+    },
+    {
+      "nodeId": "197:231",
+      "name": "menu"
+    },
+    {
+      "nodeId": "197:179",
+      "name": "arrow-left"
+    },
+    {
+      "nodeId": "197:185",
+      "name": "arrow-right"
+    },
+    {
+      "nodeId": "197:190",
+      "name": "arrow-up"
+    },
+    {
+      "nodeId": "197:195",
+      "name": "arrow-down"
+    },
+    {
+      "nodeId": "197:309",
+      "name": "external-link"
+    },
+    {
+      "nodeId": "2047:578",
+      "name": "log-out"
+    },
+    {
+      "nodeId": "197:159",
+      "name": "search"
+    },
+    {
+      "nodeId": "197:164",
+      "name": "x"
+    },
+    {
+      "nodeId": "197:169",
+      "name": "plus"
+    },
+    {
+      "nodeId": "197:174",
+      "name": "minus"
+    },
+    {
+      "nodeId": "197:221",
+      "name": "check"
+    },
+    {
+      "nodeId": "197:226",
+      "name": "ellipsis"
+    },
+    {
+      "nodeId": "197:237",
+      "name": "pencil"
+    },
+    {
+      "nodeId": "197:242",
+      "name": "trash"
+    },
+    {
+      "nodeId": "197:247",
+      "name": "upload"
+    },
+    {
+      "nodeId": "197:252",
+      "name": "download"
+    },
+    {
+      "nodeId": "197:257",
+      "name": "refresh-cw"
+    },
+    {
+      "nodeId": "197:304",
+      "name": "copy"
+    },
+    {
+      "nodeId": "197:273",
+      "name": "info"
+    },
+    {
+      "nodeId": "197:278",
+      "name": "circle-check"
+    },
+    {
+      "nodeId": "197:283",
+      "name": "circle-alert"
+    },
+    {
+      "nodeId": "197:289",
+      "name": "circle-x"
+    },
+    {
+      "nodeId": "2047:587",
+      "name": "triangle-alert"
+    },
+    {
+      "nodeId": "197:294",
+      "name": "eye"
+    },
+    {
+      "nodeId": "197:299",
+      "name": "eye-off"
+    },
+    {
+      "nodeId": "2047:583",
+      "name": "lock"
+    },
+    {
+      "nodeId": "2047:519",
+      "name": "folder"
+    },
+    {
+      "nodeId": "2047:522",
+      "name": "folder-open"
+    },
+    {
+      "nodeId": "2047:525",
+      "name": "file"
+    },
+    {
+      "nodeId": "2047:529",
+      "name": "file-text"
+    },
+    {
+      "nodeId": "2028:71",
+      "name": "file-search-corner"
+    },
+    {
+      "nodeId": "2047:536",
+      "name": "image"
+    },
+    {
+      "nodeId": "2047:541",
+      "name": "paperclip"
+    },
+    {
+      "nodeId": "2047:544",
+      "name": "link"
+    },
+    {
+      "nodeId": "197:268",
+      "name": "user"
+    },
+    {
+      "nodeId": "2047:592",
+      "name": "users"
+    },
+    {
+      "nodeId": "2047:567",
+      "name": "bell"
+    },
+    {
+      "nodeId": "2047:571",
+      "name": "mail"
+    },
+    {
+      "nodeId": "2047:575",
+      "name": "message-square"
+    },
+    {
+      "nodeId": "2047:557",
+      "name": "calendar"
+    },
+    {
+      "nodeId": "2047:563",
+      "name": "clock"
+    },
+    {
+      "nodeId": "197:263",
+      "name": "settings"
+    },
+    {
+      "nodeId": "2047:548",
+      "name": "funnel"
+    },
+    {
+      "nodeId": "2047:551",
+      "name": "arrow-up-down"
+    },
+    {
+      "nodeId": "2103:70",
+      "name": "wrench"
+    },
+    {
+      "nodeId": "2103:75",
+      "name": "scissors"
+    },
+    {
+      "nodeId": "2103:84",
+      "name": "pen-tool"
+    },
+    {
+      "nodeId": "2103:92",
+      "name": "ruler"
+    },
+    {
+      "nodeId": "2103:101",
+      "name": "pipette"
+    },
+    {
+      "nodeId": "2103:108",
+      "name": "sliders-horizontal"
+    },
+    {
+      "nodeId": "2103:121",
+      "name": "terminal"
+    },
+    {
+      "nodeId": "2103:127",
+      "name": "code-xml"
+    },
+    {
+      "nodeId": "2103:134",
+      "name": "braces"
+    },
+    {
+      "nodeId": "2103:140",
+      "name": "git-branch"
+    },
+    {
+      "nodeId": "2103:147",
+      "name": "plug"
+    },
+    {
+      "nodeId": "2103:155",
+      "name": "globe"
+    },
+    {
+      "nodeId": "2103:162",
+      "name": "webhook"
+    },
+    {
+      "nodeId": "2103:169",
+      "name": "flask-conical"
+    },
+    {
+      "nodeId": "2103:176",
+      "name": "search-code"
+    },
+    {
+      "nodeId": "2103:184",
+      "name": "bot"
+    },
+    {
+      "nodeId": "2103:194",
+      "name": "bot-message-square"
+    },
+    {
+      "nodeId": "2103:204",
+      "name": "sparkles"
+    },
+    {
+      "nodeId": "2103:212",
+      "name": "brain"
+    },
+    {
+      "nodeId": "2103:224",
+      "name": "brain-circuit"
+    },
+    {
+      "nodeId": "2103:241",
+      "name": "cpu"
+    },
+    {
+      "nodeId": "2103:259",
+      "name": "network"
+    },
+    {
+      "nodeId": "2103:268",
+      "name": "workflow"
+    },
+    {
+      "nodeId": "2103:275",
+      "name": "wand-sparkles"
+    },
+    {
+      "nodeId": "2103:287",
+      "name": "lightbulb"
+    },
+    {
+      "nodeId": "2103:294",
+      "name": "scan"
+    },
+    {
+      "nodeId": "2103:302",
+      "name": "scan-text"
+    },
+    {
+      "nodeId": "2103:313",
+      "name": "database"
+    },
+    {
+      "nodeId": "2103:320",
+      "name": "blocks"
+    },
+    {
+      "nodeId": "2103:326",
+      "name": "waypoints"
+    },
+    {
+      "nodeId": "2272:1187",
+      "name": "audio-waveform"
+    },
+    {
+      "nodeId": "2272:1198",
+      "name": "tv-minimal"
+    },
+    {
+      "nodeId": "2272:1193",
+      "name": "box"
+    },
+    {
+      "nodeId": "2516:3407",
+      "name": "loader"
+    },
+    {
+      "nodeId": "2518:3443",
+      "name": "heart"
+    },
+    {
+      "nodeId": "2581:4261",
+      "name": "image-upscale"
+    },
+    {
+      "nodeId": "2582:4301",
+      "name": "joystick"
+    },
+    {
+      "nodeId": "2582:4367",
+      "name": "mop-sparkles"
+    },
+    {
+      "nodeId": "2584:4409",
+      "name": "clock-arrow-up"
+    },
+    {
+      "nodeId": "197:200",
+      "name": "chevron-left"
+    },
+    {
+      "nodeId": "197:205",
+      "name": "chevron-right"
+    },
+    {
+      "nodeId": "197:211",
+      "name": "chevron-up"
+    },
+    {
+      "nodeId": "197:216",
+      "name": "chevron-down"
+    },
+    {
+      "nodeId": "2270:795",
+      "name": "panel-left-close"
+    },
+    {
+      "nodeId": "2270:794",
+      "name": "panel-left-open"
+    }
+  ]
+}

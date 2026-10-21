@@ -5,7 +5,7 @@ import { createElement as h, useState } from 'react'
 const {
   SlateXButton, SlateXInput, SlateXTextarea, SlateXSearch, SlateXSelect,
   SlateXCheckbox, SlateXRadio, SlateXRadioGroup, SlateXSwitch,
-  SlateXTabs, SlateXDialog, SlateXToast, SlateXAlert,
+  SlateXTabs, SlateXDialog, SlateXToast, SlateXAlert, SlateXAvatar,
 } = await import('../packages/react/dist/index.js')
 
 let mounted
@@ -91,14 +91,15 @@ test('tabs support click, arrows, Home and End, skipping disabled options', asyn
   assert.deepEqual(values,['c','a','c','a'])
 })
 
-for (const size of ['Small','Medium','Large']) test(`search ${size} dropdown inherits size and keyboard selection skips disabled results`, async () => {
+for (const [size, panelSize] of [['Small','Medium'],['Medium','Medium'],['Large','Large']]) test(`search ${size} uses a ${panelSize} panel and skips disabled results`, async () => {
   const selected=[]
   await render(h(SlateXSearch,{size,'aria-label':'Search',options:[{value:'a',label:'Alpha'},{value:'b',label:'Beta',disabled:true},{value:'c',label:'Gamma'}],onSelect:v=>selected.push(v.value)}))
   await focus(q('input'))
   await type(q('input'),'a')
   assert.equal(q('input').getAttribute('aria-expanded'),'true')
-  assert.ok(q(`.m-search-panel.dropdown-${size}`))
-  assert.ok(qa('[role="option"]').every(x=>x.classList.contains(`dropdown-${size}`)))
+  assert.ok(q(`.m-search-panel.dropdown-${panelSize}`))
+  assert.ok(qa('[role="option"]').every(x=>x.classList.contains(`dropdown-${panelSize}`)))
+  assert.equal(q('.m-dropdown-heading').textContent, 'Suggestions')
   await key(q('input'),'ArrowDown')
   await key(q('input'),'ArrowDown')
   const active=q('input').getAttribute('aria-activedescendant')
@@ -107,6 +108,25 @@ for (const size of ['Small','Medium','Large']) test(`search ${size} dropdown inh
   assert.deepEqual(selected,['c'])
   assert.equal(q('input').value,'Gamma')
   assert.equal(q('input').getAttribute('aria-expanded'),'false')
+})
+
+test('avatar falls back after an image error and retries when the source changes', async () => {
+  await render(h(SlateXAvatar,{src:'/unavailable.png',initials:'RM',alt:'Ringo',size:52}))
+  assert.equal(q('.m-avatar img').alt, 'Ringo')
+  await act(async () => { q('.m-avatar img').dispatchEvent(new Event('error')) })
+  assert.equal(q('.m-avatar').textContent, 'RM')
+  assert.equal(q('.m-avatar [role="img"]').getAttribute('aria-label'), 'Ringo')
+  await mounted.render(h(SlateXAvatar,{src:'/replacement.png',initials:'RM',alt:'Ringo',size:52}))
+  assert.equal(q('.m-avatar img').getAttribute('src'), '/replacement.png')
+})
+
+test('avatar keeps explicit empty initials blank instead of substituting a user icon', async () => {
+  await render(h(SlateXAvatar,{initials:'',size:40,'aria-hidden':true}))
+  assert.equal(q('.m-avatar').textContent, '')
+  assert.equal(q('.m-avatar svg'), null)
+  await mounted.render(h(SlateXAvatar,{alt:'Member'}))
+  assert.ok(q('.m-avatar svg'))
+  assert.equal(q('.m-avatar').getAttribute('aria-label'), 'Member')
 })
 
 test('search loading and error suppress selection; Escape closes suggestions', async () => {

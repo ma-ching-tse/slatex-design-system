@@ -24,6 +24,7 @@ export const SlateXSearch = forwardRef<HTMLInputElement, SlateXSearchProps>(func
   useFormReset(input, value !== undefined, () => { setQuery(defaultValue); setOpen(false); setActive(-1) })
   useImperativeHandle(forwardedRef, () => input.current!, [])
   const listId = useId()
+  const panelSize = props.size === 'Large' ? 'Large' : 'Medium'
   const canChoose = !loading && !error
   const enabled = canChoose ? options.map((option, index) => !option.disabled ? index : -1).filter(index => index >= 0) : []
   const isOpen = open && !disabled && !readOnly && !!query
@@ -52,8 +53,8 @@ export const SlateXSearch = forwardRef<HTMLInputElement, SlateXSearchProps>(func
         }} />
     </div></Popover.Anchor>
     <Popover.Portal><Popover.Content asChild sideOffset={4} collisionPadding={12} align="start" onOpenAutoFocus={event => event.preventDefault()} onCloseAutoFocus={event => event.preventDefault()} onInteractOutside={event => { if (event.target instanceof Node && input.current?.contains(event.target)) event.preventDefault() }}>
-      <SlateXDropdownPanel size={props.size} id={listId} role={canChoose && options.length ? 'listbox' : undefined} aria-label={messages.suggestions} className="m-search-panel" state={loading ? 'Loading' : error ? 'Error' : options.length ? 'Options' : 'Empty'} message={loading ? messages.loading : error || emptyMessage || messages.empty}>
-        <div className="m-dropdown-viewport">{options.map((option, index) => <SlateXDropdownItem size={props.size} key={option.value} id={`${listId}-${index}`} disabled={option.disabled} highlighted={active === index} leadingIcon={option.icon ?? <SearchIcon />} onMouseEnter={() => { if (!option.disabled) setActive(index) }} onMouseDown={event => event.preventDefault()} onClick={() => choose(index)}>{option.label}</SlateXDropdownItem>)}</div>
+      <SlateXDropdownPanel size={panelSize} id={listId} role={canChoose && options.length ? 'listbox' : undefined} aria-label={messages.suggestions} className="m-search-panel" state={loading ? 'Loading' : error ? 'Error' : options.length ? 'Options' : 'Empty'} message={loading ? messages.loading : error || emptyMessage || messages.empty}>
+        <div className="m-dropdown-viewport"><div className="m-dropdown-heading" aria-hidden="true">{messages.suggestionsTitle}</div>{options.map((option, index) => <SlateXDropdownItem size={panelSize} key={option.value} id={`${listId}-${index}`} disabled={option.disabled} highlighted={active === index} leadingIcon={option.icon ?? <SearchIcon />} onMouseEnter={() => { if (!option.disabled) setActive(index) }} onMouseDown={event => event.preventDefault()} onClick={() => choose(index)}>{option.label}</SlateXDropdownItem>)}</div>
       </SlateXDropdownPanel>
     </Popover.Content></Popover.Portal>
   </Popover.Root>

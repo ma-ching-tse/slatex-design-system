@@ -1,4 +1,4 @@
-import { useState, type HTMLAttributes, type ReactNode } from 'react'
+import { useState, type CSSProperties, type HTMLAttributes, type ReactNode } from 'react'
 import { User } from 'lucide-react'
 import { cx, type CompactSize, type Tone } from './shared'
 
@@ -24,15 +24,16 @@ export function SlateXBadge({ size = 'Medium', tone = 'Neutral', variant = 'Coun
   if (variant === 'Count' && Number(count) === 0 && !showZero) return null
   return <span {...props} className={cx('m-badge', `compact-${size}`, `tone-${tone}`, `badge-${variant}`, className)}>{variant === 'Dot' ? null : typeof count === 'number' && count > max ? `${max}+` : count}</span>
 }
-export type AvatarSize = 16 | 24 | 32 | 40 | 48 | 64
+export type AvatarSize = number
 export interface SlateXAvatarProps extends HTMLAttributes<HTMLSpanElement> { size?: AvatarSize; src?: string; alt?: string; initials?: string; icon?: ReactNode }
 function AvatarImage({ src, alt, fallback }: { src: string; alt: string; fallback: ReactNode }) {
   const [failed, setFailed] = useState(false)
   return failed ? fallback : <img src={src} alt={alt} onError={() => setFailed(true)} />
 }
-export function SlateXAvatar({ size = 32, src, alt = '', initials, icon, className, children, ...props }: SlateXAvatarProps) {
-  const fallback = initials || icon || <User aria-hidden="true" />
-  return <span {...props} className={cx('m-avatar', `avatar-${size}`, className)} role={src ? undefined : alt ? 'img' : undefined} aria-label={!src && alt ? alt : props['aria-label']}>
+export function SlateXAvatar({ size = 32, src, alt = '', initials, icon, className, children, style, ...props }: SlateXAvatarProps) {
+  const scale = Number.isFinite(size) && size > 0 ? size / 32 : 1
+  const fallback = initials ?? icon ?? <User aria-hidden="true" />
+  return <span {...props} className={cx('m-avatar', className)} style={{ '--m-avatar-scale': scale, ...style } as CSSProperties} role={src ? undefined : alt ? 'img' : undefined} aria-label={!src && alt ? alt : props['aria-label']}>
     {src ? <AvatarImage key={src} src={src} alt={alt} fallback={<span role={alt ? 'img' : undefined} aria-label={alt || undefined}>{fallback}</span>} /> : children ?? fallback}
   </span>
 }

@@ -2,6 +2,9 @@ export type Locale = 'en' | 'zh'
 
 // Technical names, Token keys and API values stay unchanged.
 const pairs: Array<[string, string]> = [
+  ['Corner radius override; no Shape variant','圆角覆写；无 Shape 变体'],
+  ['Base size','基准尺寸'], ['number · px (proportional scaling)','number · px（等比缩放）'],
+  ['Use','用途'], ['Label to input gap','Label 与输入区间距'],
   ['Brand palette','品牌基础色板'],
   ['Introduction','简介'], ['Overview','概览'], ['Design Principles','设计原则'], ['Status & Versioning','状态与版本'], ['Changelog','更新记录'],
   ['Atlas archive','Atlas 归档'], ['Brand','品牌'], ['Brand Overview','品牌概览'], ['Logo','标志'], ['Voice & Tone','语气与风格'], ['Imagery','品牌图像'],

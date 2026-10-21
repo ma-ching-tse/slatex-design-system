@@ -22,13 +22,16 @@ writeFileSync(join(consumer, 'styles.d.ts'), "declare module '*.css'\n")
 writeFileSync(join(consumer, 'usage.tsx'), `
 import { createRef } from 'react'
 import { SlateXButton, type SlateXButtonProps } from '@slatex/react'
-import { SlateXDropdownItem, SlateXDropdownPanel } from '@slatex/react'
+import { SlateXDropdownItem, SlateXDropdownPanel, SlateXAvatar } from '@slatex/react'
 import '@slatex/react/styles.css'
 const props: SlateXButtonProps = { kind: 'Danger', size: 'Small', loading: true }
 export const button = <SlateXButton {...props} ref={createRef<HTMLButtonElement>()} type="submit" onClick={event => event.currentTarget.focus()} aria-label="保存" />
 // @ts-expect-error Unsupported variants must be rejected.
 export const invalid = <SlateXButton kind="Unknown" />
 export const dropdown = <SlateXDropdownPanel><SlateXDropdownItem selected onClick={event => event.currentTarget.focus()}>Design</SlateXDropdownItem></SlateXDropdownPanel>
+export const avatar = <SlateXAvatar size={52} initials="RM" alt="Ringo" />
+// @ts-expect-error Avatar sizes are numeric pixel values.
+export const invalidAvatar = <SlateXAvatar size="Large" />
 `)
 const examplesPath = join(root, 'output/component-examples.json')
 const examples = existsSync(examplesPath) ? JSON.parse(readFileSync(examplesPath, 'utf8')) : []

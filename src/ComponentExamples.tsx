@@ -5,7 +5,7 @@ import {
   SlateXTabs, SlateXSkeleton, SlateXAlert, SlateXAvatar, SlateXBadge, SlateXButton, SlateXCheckbox, SlateXComposer, SlateXDialog,
   SlateXDropdownPanel, SlateXInput, SlateXPopover, SlateXRadio, SlateXRadioGroup, SlateXSearch,
   SlateXSelect, SlateXSwitch, SlateXTag, SlateXTextarea, SlateXToast, SlateXTooltip,
-  type AvatarSize, type CompactSize, type FieldSize, type FieldState, type Placement, type Tone,
+  type CompactSize, type FieldSize, type FieldState, type Placement, type Tone,
 } from '@slatex/react'
 export type PreviewMode = 'main' | 'sizes' | 'states'
 const sizes: FieldSize[] = ['Small', 'Medium', 'Large']
@@ -103,8 +103,8 @@ export function ComponentPreview({ id, mode }: { id: string; mode: PreviewMode }
       if (mode === 'sizes') return <div className="component-preview-row">{compact.map(size => <Item label={size} key={size}><SlateXBadge size={size} tone="Brand" count={8} /><SlateXBadge size={size} tone="Brand" variant="Dot" aria-label={t("更新")} /></Item>)}</div>
       return <div className="component-preview-row"><SlateXBadge count={0} showZero /><SlateXBadge count={99} /><SlateXBadge count={148} /><SlateXBadge variant="Dot" tone="Success" aria-label={t("已同步")} /></div>
     case 'avatar':
-      if (mode === 'main') return <div className="component-preview-row"><Item label="Image"><SlateXAvatar src={`${import.meta.env.BASE_URL}brand/atlas-cloud-logomark-black.svg`} alt="Atlas" /></Item><Item label="Initials"><SlateXAvatar initials="RM" alt="Ringo" /></Item><Item label="Icon"><SlateXAvatar alt={t("成员")} /></Item></div>
-      if (mode === 'sizes') return <div className="component-preview-row">{([16,24,32,40,48,64] as AvatarSize[]).map(size => <Item label={`${size}`} key={size}><SlateXAvatar size={size} initials="R" alt="Ringo" /></Item>)}</div>
+      if (mode === 'main') return <div className="component-preview-row"><Item label="Image"><SlateXAvatar src={`${import.meta.env.BASE_URL}images/avatar-default.png`} alt="Atlas" /></Item><Item label="Initials"><SlateXAvatar initials="RM" alt="Ringo" /></Item><Item label="Icon"><SlateXAvatar alt={t("成员")} /></Item></div>
+      if (mode === 'sizes') return <div className="component-preview-row">{[16,32,52,64].map(size => <Item label={`${size} px · ×${size / 32}`} key={size}><SlateXAvatar size={size} initials="R" alt="Ringo" /></Item>)}</div>
       return <div className="component-preview-row"><SlateXAvatar initials="RM" alt="Ringo" /><SlateXAvatar initials="林" alt="林" /><SlateXAvatar alt={t("成员")} /></div>
     case 'tooltip':
       if (mode === 'main') return <div className="component-preview-row">{placements.map(placement => <SlateXTooltip key={placement} placement={placement} label={t("添加组件")} showArrow><SlateXButton kind="Secondary" size="Small">{placement}</SlateXButton></SlateXTooltip>)}</div>

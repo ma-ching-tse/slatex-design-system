@@ -65,7 +65,7 @@ export function ButtonPage() {
      <tr><th scope="row">size</th><td>Tiny / Small / Medium / Large</td><td>Medium</td><td>{t("Size")}</td></tr>
      <tr><th scope="row">loading / disabled</th><td>boolean</td><td>false</td><td>State = Loading / Disabled</td></tr>
      <tr><th scope="row">state</th><td>Default / Hover / Pressed / Loading / Disabled</td><td>{t("Default")}</td><td>{t("State · 固定预览")}</td></tr>
-     <tr><th scope="row">pill</th><td>boolean</td><td>true</td><td>Shape = Pill</td></tr>
+     <tr><th scope="row">pill</th><td>boolean</td><td>true</td><td>{t('圆角覆写；无 Shape 变体')}</td></tr>
      <tr><th scope="row">icon</th><td>boolean</td><td>false</td><td>Content = Icon</td></tr>
      <tr><th scope="row">children</th><td>ReactNode</td><td>Button</td><td>{t("标签 / 任意图标")}</td></tr>
      <tr><th scope="row">aria-label</th><td>string</td><td>—</td><td>{t("纯图标名称")}</td></tr>

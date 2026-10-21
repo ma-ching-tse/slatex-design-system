@@ -1,9 +1,9 @@
 # SlateX · React
 
-版本 `1.0.0`，支持 React 18 / 19。首版网页提供 16 个完成的组件，包含 Tabs 和 Skeleton；Avatar / Popover / Composer 暂不作为首版交付组件。
+版本 `1.1.0`，支持 React 18 / 19。网页提供 17 个组件，包含 Avatar、Tabs 和 Skeleton；Popover / Composer 暂不作为正式交付组件。
 
 ```sh
-npm install ./slatex-react-1.0.0.tgz
+npm install ./slatex-react-1.1.0.tgz
 ```
 
 ```tsx
@@ -20,6 +20,8 @@ export function Save() {
 - Dark：给根元素设置 `data-theme="dark"`。品牌和明暗两项独立。
 - Button 默认 Pill；Dialog 内按钮按 Figma 实例保留 12px 圆角。
 - Tabs：Tiny / Medium / Large，2–3 项，支持点击、方向键、Home / End 和禁用项。
+- Avatar：Image / Initials / Icon；32 px 基准，`size` 接受任意正数并等比缩放文字、图标与描边，对应 Figma 的 Scale（K）。基准文字 14 / 20 px、图标 20 px；`initials=""` 保持空占位。图片由调用方传入。
+- Search：Small / Medium 使用 Medium 下拉（36 px 选项），Large 使用 Large（40 px）；Suggestions 为 12 / 16 px、500 字重。
 - Skeleton：Text / Block / Circle，默认 1600ms Pulse；减少动态效果时静止。父级负责一次性播报加载状态。
 - Input、Textarea、Search 支持原生字段属性与受控值；Select / Radio / Checkbox / Switch 支持表单和键盘。
 - Dialog / Tooltip / Select / Search 使用 Portal。Dialog 管理模态焦点，关闭后归还焦点。
