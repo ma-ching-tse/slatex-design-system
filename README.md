@@ -30,6 +30,12 @@ npm run test:components
 
 `dist/` 为静态站点；`public/packages/slatex-react-1.1.0.tgz` 为 React 包。组件页可复制完整使用代码，基础规范页可下载包含当前品牌选择的 CSS。
 
+## 网站发布
+
+现有 Vercel 项目已连接本仓库，生产分支为 `main`。推送到 `main` 后自动执行 `npm ci` 和 `npm run build`，将 `dist/` 发布到 [原网址](https://slatex-design-system.vercel.app)。发布前完成组件测试、静态检查与相关页面验证；推送后核对 Vercel 构建成功及线上版本。
+
+Figma 改稿与“收集更新”只维护设计记录；经确认的代码修改推送到 `main` 后才会更新网站。
+
 ## 更新设计数据
 
 `docs/sources/slatex/` 保留 Figma 的基础色、主题别名、品牌模式和文字样式快照。更新这些快照后运行 `npm run sync:figma`，生成网站数据、默认 CSS 和 JSON 交付文件。它读取本地快照，不会自动修改或写回 Figma。
